@@ -13,11 +13,24 @@ projects: Acropora pulchra genome
 ## In Collaboration with Jill Ashey at URI 
 
 ### 06112024
-Met with Ross, Hollie and Jill to establish status of genome assembly. Jill is currently removing contaminant reads (bacteria, viruses, symbionts etc.). Jill is trying to work on getting MitoHifi to work, and then the next steps will be to ID and mask repeats, and then annotate the genome using Funannotate. 
+Met with Ross, Hollie and Jill to establish status of genome assembly. Jill is currently removing contaminant reads (bacteria, viruses, symbionts etc.). Jill is trying to work on getting MitoHifi to work, and then the next steps will be to ID and mask repeats, and then annotate the genome using Funannotate. Jill's status updates can be read at (https://github.com/JillAshey/JillAshey_Putnam_Lab_Notebook/blob/master/_posts/2024-02-06-Apulchra-Genome-Assembly.md)
+
+
 
 ### 06212024
 
-I gained affiliate access to the URI cluster and began to set up my conda environments and such. All data on the URI cluster should be located under data/putnamlab/tconn. There is no scratch environment in 
+I gained affiliate access to the URI cluster and began to set up my conda environments and such. All data on the URI cluster should be located under data/putnamlab/tconn. There is no scratch environment in the URI cluster and they do not like you to use your home directories for working (lol) so all data and scripts are kept in the putnam lab allocation. To test out longer 'jobs' on a compute node, you use the interactive cluster. This is how I set up my conda environments. 
+
+Created two conda environments: one for repeatmasker (identifying and masking repeats) and mitohifi (to see if I can help Jill along) 
+
+```
+conda create -n repeatmasker
+conda create -n mitohifi
+```
+Jill is having trouble with getting mitohifi to run after installing via conda. Docker is not available so I'm going to try to install using Singularity using command available on the MitoHifi github. 
+
+```
+singularity exec --bind /path/to/container_directory:/path/to/container_directory docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
 
 ```
 singularity exec --bind /path/to/container_directory:/path/to/container_directory docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
