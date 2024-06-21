@@ -19,7 +19,7 @@ Met with Ross, Hollie and Jill to establish status of genome assembly. Jill is c
 
 I gained affiliate access to the URI cluster and began to set up my conda environments and such. All data on the URI cluster should be located under data/putnamlab/tconn. There is no scratch environment in 
 
-'''
+```
 singularity exec --bind /path/to/container_directory:/path/to/container_directory docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
 INFO:    Converting OCI blobs to SIF format
 INFO:    Starting build...
@@ -460,6 +460,7 @@ Writing manifest to image destination
 2024/06/21 00:01:37  info unpack layer: sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1
 INFO:    Creating SIF file...
 
-'''
+```
+
 
 
