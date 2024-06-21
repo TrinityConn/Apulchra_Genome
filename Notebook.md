@@ -33,6 +33,7 @@ Jill is having trouble with getting mitohifi to run after installing via conda. 
 singularity exec --bind /path/to/container_directory:/path/to/container_directory docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
 
 ```
+```
 singularity exec --bind /path/to/container_directory:/path/to/container_directory docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
 INFO:    Converting OCI blobs to SIF format
 INFO:    Starting build...
