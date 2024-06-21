@@ -551,3 +551,10 @@ optional arguments:
 ```
 
 Success!! Now lets try running Jill's script.
+
+First Error found: 
+
+```
+FileNotFoundError: [Errno 2] No such file or directory: '/data/putnamlab/jillashey/Apul_Genome/assembly/mito/ref_mito_genome/NC_081453.1.fasta'
+
+```
