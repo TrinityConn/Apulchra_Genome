@@ -479,7 +479,7 @@ INFO:    Creating SIF file...
 Ok the SIF image file has been created. I can now pull the docker image into the conda environment and run the python script 
 
 ```
-singularity exec --bind /home/trinity.conn/.conda/envs/mitohifi/  docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
+singularity exec docker://ghcr.io/marcelauliano/mitohifi:master mitohifi.py -h
 
 ```
 
