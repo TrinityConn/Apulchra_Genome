@@ -719,4 +719,6 @@ drwxr-xr-x. 4 trinity.conn putnamlab        4096 Jun 21 13:59 potential_contigs
 drwxr-xr-x. 2 trinity.conn putnamlab        4096 Jun 21 13:59 reads_mapping_and_assembly
 -rw-r--r--. 1 trinity.conn putnamlab        1004 Jun 21 13:58 shared_genes.tsv
 ```
+![final_mitogenome coverage](https://github.com/TrinityConn/Apulchra_Genome/assets/28198864/d1c0b634-e8f5-4f08-b55a-62087dee4bfd)
+![final_mitogenome annotation](https://github.com/TrinityConn/Apulchra_Genome/assets/28198864/0a6683d3-9085-4da6-a56b-f1b56db0c12f)
 
