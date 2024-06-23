@@ -33,3 +33,5 @@ RepeatModeler \
 	-database $NAME
 
 ```
+
+The first step of the Repeat Modeler process is to 
