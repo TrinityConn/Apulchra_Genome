@@ -726,3 +726,28 @@ Final MitoGenome Annotation:
 It looks like the mitogenome we assembled is 18480 bp in length with 24 genes. The Acropora digitifera reference was 18479 bp in length with 17 genes. 
 
 Given the strangeness of the run with A.millepora vs. A.digitifera I'm going to run it again with one more reference, and see if I'm able to assemble a mitogenome. Doesn't need to be that close phylogenetically, so it is strange. Could have something to do with the annotation of the A.millepora mitogenome?
+
+### 07172024
+
+Finally back up and running now that I am at Shedd! Looks like getting the mitogenome running for Jill was good -- she went ahead and used that assembly to purtge the mitochondrial sequences and reran the assembly after purging symbiont, bacterial/prokaryotic/mitochondrial sequenes. This left her with a final assembly using hifiasm. The fasta file with only the clean (no contaminant) reads is /data/putnamlab/jillashey/Apul_Genome/assembly/data/hifi_rr_allcontam_rem.fasta
+
+Jill used hifiasm to assemble the genome and the primary assembly file is apul.hifiasm.s55_pa.p_ctg.gfa, alternate assembly is apul.hifiasm.s55_pa.a_ctg.gfa. Jill then ran BUSCO on the primary assembly and got a score of 93.3% total completeness, and 92% single copy BUSCO. Amaze. 
+
+Jill then used ntlinks to scaffold the assembly and ran quast on it. N50 looks good. Final scaffolded assembly is located in apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa
+
+The next thing to do i think is to run blobtools on the final assembly to just get final confirmation/visualization that the assembly is clean. 
+We will be using workflow A 
+
+First, install blobtools on conda 
+
+```
+interactive
+
+conda nstall bioconda::blobtools
+
+```
+
+
+
+
+
