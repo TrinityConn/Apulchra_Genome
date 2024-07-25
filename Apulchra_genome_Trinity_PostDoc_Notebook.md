@@ -743,9 +743,36 @@ First, install blobtools on conda
 ```
 interactive
 
-conda nstall bioconda::blobtools
+conda install bioconda::blobtools
 
 ```
+
+
+
+### 072524
+Beginning to run repeat masker and repeat modeler on jill's assembly
+
+First, install repeatmodeler/masker
+
+```
+interactive
+
+conda install bioconda::repeatmodeler
+
+
+```
+
+THe first step to masking repeats is to model likely repeat regions. This is done using repeat modeler.REpeat modeler will create a database of repeats for my species to be masked.
+
+de novo repeat library creation: 
+
+- will sometimes label repetitive regions in genes etc. and we don't want those masked. Use a protein database from a closely related species to check the identified repeat models. --will probably download Zach Fuller's millepora protein database
+
+```
+wget
+
+```
+
 
 
 
