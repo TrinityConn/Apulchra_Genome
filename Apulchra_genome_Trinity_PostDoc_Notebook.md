@@ -802,6 +802,31 @@ Number of sequences (bp) added to database: 174 ( 518313916 bp )
 ```
 
 
+Now we can run repeat modeler over this database --database is looking for the previously constructed database to assay for repeats. --engine is the name of the search engine being used (ncbi) --threads number of parallel threads available to repeatmodeler to run over --LTRStruct -- instructs the program to also run the LTR (Long Terminal Repeat Transposons) modeler --optional, but I think it is worth running. We'll see if it adds a crazy amount of time to the job. 
+
+```
+
+
+#!/bin/bash
+#SBATCH -t 48:00:00
+#SBATCH --nodes=1 --ntasks-per-node=20
+#SBATCH --mem=50GB
+#SBATCH --mail-type=BEGIN,END,FAIL #email you when job starts, stops and/or fails
+#SBATCH --mail-user=trinity.conn@uri.edu #your email to send notifications
+#SBATCH --account=putnamlab
+#SBATCH -o slurm-%j.out
+#SBATCH -e slurm-%j.error
+
+
+source ~/.bashrc
+conda activate repeatmasker
+
+cd /data/putnamlab/tconn/repeats
+
+RepeatModeler -database apulchra -engine ncbi -threads 20 -LTRStruct
+
+```
+
 
 
 
