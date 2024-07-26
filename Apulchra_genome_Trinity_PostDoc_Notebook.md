@@ -757,8 +757,7 @@ First, install repeatmodeler/masker
 ```
 interactive
 
-conda install bioconda::repeatmodeler
-
+mamba install repeatmasker
 
 ```
 
@@ -769,7 +768,12 @@ de novo repeat library creation:
 - will sometimes label repetitive regions in genes etc. and we don't want those masked. Use a protein database from a closely related species to check the identified repeat models. --will probably download Zach Fuller's millepora protein database
 
 ```
-wget
+#first we need to create the database to run the repeat modeler programs over -- using the fasta file from Jill's assembly
+
+conda activate repeatmasker
+
+BuildDatabase -engine ncbi -name apulchra apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa
+
 
 ```
 
