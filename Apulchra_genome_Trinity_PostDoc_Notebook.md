@@ -826,6 +826,31 @@ cd /data/putnamlab/tconn/repeats
 RepeatModeler -database apulchra -engine ncbi -threads 20 -LTRStruct
 
 ```
+### 7302024
+Repeat Modeler finished! The original 48:00:00 runtime was not enough -- was able to pick up where the previous run left off by adding the -recoverDir /data/putnamlab/tconn/repeats/RM_79143.FriJul261435412024
+flag. Ran again with a 72:00:00 run time, finished today! Final output: 
+
+
+```
+
+Program Time: 53:43:21 (hh:mm:ss) Elapsed Time
+Working directory:  /glfs/brick01/gv0/putnamlab/tconn/repeats/RM_79143.FriJul261435412024
+may be deleted unless there were problems with the run.
+
+The results have been saved to:
+  /glfs/brick01/gv0/putnamlab/tconn/repeats/apulchra-families.fa  - Consensus sequences for each family identified.
+  /glfs/brick01/gv0/putnamlab/tconn/repeats/apulchra-families.stk - Seed alignments for each family identified.
+  /glfs/brick01/gv0/putnamlab/tconn/repeats/apulchra-rmod.log     - Execution log.  Useful for reproducing results.
+
+The RepeatModeler stockholm file is formatted so that it can
+easily be submitted to the Dfam database.  Please consider contributing
+curated families to this open database and be a part of this growing
+community resource.  For more information contact help@dfam.org.
+
+```
+
+Now the next steps will be  filtering these for any misidentified repeats in protein sequences, then run repeat masker
+
 
 
 
