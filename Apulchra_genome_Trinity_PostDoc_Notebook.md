@@ -938,6 +938,65 @@ RepeatMasker \
 
 ```
 
+Repeat Masker Finished! It output lots of files --- it output the fa.masked file (the soft masked genome file), a fa.out
+
+
+'''
+ile name: apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa
+sequences:           174
+total length:  518313916 bp  (518313916 bp excl N/X-runs)
+GC level:         39.05 %
+bases masked:   86771304 bp ( 16.74 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        53931     15969247 bp    3.08 %
+   SINEs:            12165	1556022 bp    0.30 %
+   Penelope:          1664	 463158 bp    0.09 %
+   LINEs:            37300     12835432 bp    2.48 %
+    CRE/SLACS          550	 214445 bp    0.04 %
+     L2/CR1/Rex      18647	5737962 bp    1.11 %
+     R1/LOA/Jockey	 0            0 bp    0.00 %
+     R2/R4/NeSL        869	 368129 bp    0.07 %
+     RTE/Bov-B         399        97188 bp    0.02 %
+     L1/CIN4           441	 341464 bp    0.07 %
+   LTR elements:      4466	1577793 bp    0.30 %
+     BEL/Pao           420	 169263 bp    0.03 %
+     Ty1/Copia         592	 156898 bp    0.03 %
+     Gypsy/DIRS1      2474	 859774 bp    0.17 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons      18539	4870082 bp    0.94 %
+   hobo-Activator      857	 158746 bp    0.03 %
+   Tc1-IS630-Pogo     5587	1207096 bp    0.23 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger  3339	 865433 bp    0.17 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles        865	 182230 bp    0.04 %
+
+Unclassified:       288287     58251167 bp   11.24 %
+
+Total interspersed repeats:    79553654 bp   15.35 %
+
+
+Small RNA:           18443	2403369 bp    0.46 %
+
+Satellites:            888        97262 bp    0.02 %
+Simple repeats:     109119	4909261 bp    0.95 %
+Low complexity:      15646	 742738 bp    0.14 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+'''
+
+
+
 
 
 
