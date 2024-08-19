@@ -941,8 +941,8 @@ RepeatMasker \
 Repeat Masker Finished! It output lots of files --- it output the fa.masked file (the soft masked genome file), a fa.out
 
 
-'''
-ile name: apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa
+```
+File name: apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa
 sequences:           174
 total length:  518313916 bp  (518313916 bp excl N/X-runs)
 GC level:         39.05 %
@@ -993,7 +993,9 @@ Low complexity:      15646	 742738 bp    0.14 %
 
 * most repeats fragmented by insertions or deletions
   have been counted as one element
-'''
+  
+```
+
 
 
 
