@@ -996,6 +996,41 @@ Low complexity:      15646	 742738 bp    0.14 %
   
 ```
 
+funannotate train results: 
+
+```
+
+
+[08/30/24 15:35:25]: Mapping reads using pseudoalignment in Kallisto
+[08/30/24 15:35:25]: kallisto quant -i /data/putnamlab/tconn/training/getBestModel/bestModel -o /data/putnamlab/tconn/training/getBestModel/kallisto --plaintext -t 20 /data/putnamlab/tconn/training/left.fq.gz /data/$
+[08/30/24 15:57:16]:
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 107,987
+[index] number of k-mers: 90,845,921
+[index] number of equivalence classes: 433,643
+[quant] running in paired-end mode
+[quant] will process pair 1: /data/putnamlab/tconn/training/left.fq.gz
+                             /data/putnamlab/tconn/training/right.fq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 397,661,206 reads, 285,797,713 reads pseudoaligned
+[quant] estimated average fragment length: 248.633
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,264 rounds
+
+
+[08/30/24 15:57:17]: Parsing expression value results. Keeping best transcript at each locus.
+[08/30/24 16:17:05]: Wrote 36,860 PASA gene models
+[08/30/24 16:17:06]: PASA database name: Acropora_pulchra
+[08/30/24 16:17:06]: Trinity/PASA has completed, you are now ready to run funanotate predict, for example:
+
+  funannotate predict -i /data/putnamlab/tconn/repeats/apul_softmasked/apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa.masked \
+            -o /data/putnamlab/tconn/ -s "Acropora pulchra" --cpus 20
+
+```
+
+
+
 
 
 
