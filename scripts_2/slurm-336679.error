@@ -1,0 +1,23 @@
+[Sep 04 05:05 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Sep 04 05:05 PM]: Running 1.8.17
+[Sep 04 05:05 PM]: No NCBI SBT file given, will use default, for NCBI submissions pass one here '--sbt'
+[Sep 04 05:05 PM]: Found relevant files in /data/putnamlab/tconn/training, will re-use them:
+	GFF3: /data/putnamlab/tconn/predict_results/Acropora_pulchra.gff3
+	Genome: /data/putnamlab/tconn/predict_results/Acropora_pulchra.scaffolds.fa
+	Forward reads: /data/putnamlab/tconn/training/left.fq.gz
+	Reverse reads: /data/putnamlab/tconn/training/right.fq.gz
+	Forward normalized reads: /data/putnamlab/tconn/training/normalize/left.norm.fq
+	Reverse normalized reads: /data/putnamlab/tconn/training/normalize/right.norm.fq
+	Trinity results: /data/putnamlab/tconn/training/funannotate_train.trinity-GG.fasta
+	PASA config file: /data/putnamlab/tconn/training/pasa/alignAssembly.txt
+	BAM alignments: /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+	StringTie GTF: /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+[Sep 04 05:05 PM]: Reannotating Acropora pulchra, NCBI accession: None
+[Sep 04 05:05 PM]: Previous annotation consists of: 36,447 protein coding gene models and 7,924 non-coding gene models
+[Sep 04 05:05 PM]: Existing annotation: locustag=FUN_ genenumber=44371
+[Sep 04 05:05 PM]: Trimmomatic will be skipped
+[Sep 04 05:09 PM]: Converting transcript alignments to GFF3 format
+[Sep 04 05:10 PM]: Converting Trinity transcript alignments to GFF3 format
+[Sep 04 05:11 PM]: PASA database is SQLite: /data/putnamlab/tconn/training/pasa/Acropora_pulchra_pasa
+[Sep 04 05:11 PM]: Running PASA annotation comparison step 1
+[Sep 04 05:11 PM]: CMD ERROR: /home/trinity.conn/.conda/envs/annotate/opt/pasa-2.5.3/Launch_PASA_pipeline.pl -c /data/putnamlab/tconn/update_misc/pasa/annotCompare.txt -g /data/putnamlab/tconn/update_misc/genome.fa -t /data/putnamlab/tconn/update_misc/trinity.fasta.clean -A -L --CPU 20 --annots /data/putnamlab/tconn/update_misc/genome.gff3

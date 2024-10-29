@@ -1,0 +1,22 @@
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+[Aug 22 02:10 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Aug 22 02:10 PM]: Running 1.8.17
+[Aug 22 02:10 PM]: Trimmomatic will be skipped
+[Aug 22 02:10 PM]: Existig Hisat2 alignments found: /data/putnamlab/tconn/training/hisat2.coordSorted.bam
+[Aug 22 02:10 PM]: Running genome-guided Trinity, logfile: /data/putnamlab/tconn/training/Trinity-gg.log
+[Aug 22 02:10 PM]: Clustering of reads from BAM and preparing assembly commands
+[Aug 22 09:26 PM]: Assembling 51,739 Trinity clusters using 19 CPUs
+slurmstepd: error: _is_a_lwp: open() /proc/218961/status failed: No such file or directory
+slurmstepd: error: _is_a_lwp: open() /proc/207827/status failed: No such file or directory
+slurmstepd: error: _is_a_lwp: open() /proc/34732/status failed: No such file or directory
+slurmstepd: error: _is_a_lwp: open() /proc/31143/status failed: No such file or directory
+slurmstepd: error: _is_a_lwp: 1 read() attempts on /proc/254613/status failed: No such process
+[Aug 24 12:12 AM]: 401,717 transcripts derived from Trinity
+[Aug 24 12:12 AM]: Running StringTie on Hisat2 coordsorted BAM
+[Aug 24 12:14 AM]: Removing poly-A sequences from trinity transcripts using seqclean
+[Aug 24 12:19 AM]: Converting transcript alignments to GFF3 format
+[Aug 24 12:19 AM]: Converting Trinity transcript alignments to GFF3 format
+[Aug 24 12:20 AM]: Running PASA alignment step using 401,705 transcripts
+[Aug 24 12:20 AM]: CMD ERROR: /home/trinity.conn/.conda/envs/annotate/opt/pasa-2.5.3/Launch_PASA_pipeline.pl -c /data/putnamlab/tconn/training/pasa/alignAssembly.txt -r -C -R -g /data/putnamlab/tconn/training/genome.fasta --IMPORT_CUSTOM_ALIGNMENTS /data/putnamlab/tconn/training/trinity.alignments.gff3 -T -t /data/putnamlab/tconn/training/trinity.fasta.clean -u /data/putnamlab/tconn/training/trinity.fasta --stringent_alignment_overlap 30.0 --TRANSDECODER --ALT_SPLICE --MAX_INTRON_LENGTH 100000 --CPU 20 --ALIGNERS blat --trans_gtf /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf

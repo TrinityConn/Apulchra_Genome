@@ -1,0 +1,9 @@
+[Aug 26 04:36 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Aug 26 04:36 PM]: Running 1.8.17
+[Aug 26 04:36 PM]: Trimmomatic will be skipped
+[Aug 26 04:36 PM]: 401,717 existing Trinity results found: /data/putnamlab/tconn/training/trinity.fasta
+[Aug 26 04:36 PM]: Removing poly-A sequences from trinity transcripts using seqclean
+[Aug 26 04:36 PM]: Existing SeqClean output found: /data/putnamlab/tconn/training/trinity.fasta.clean
+[Aug 26 04:36 PM]: Existing BAM alignments found: /data/putnamlab/tconn/training/trinity.alignments.bam, /data/putnamlab/tconn/training/transcript.alignments.bam
+[Aug 26 04:36 PM]: Running PASA alignment step using 401,705 transcripts
+[Aug 26 04:36 PM]: CMD ERROR: /home/trinity.conn/.conda/envs/annotate/opt/pasa-2.5.3/Launch_PASA_pipeline.pl -c /data/putnamlab/tconn/training/pasa/alignAssembly.txt -r -C -R -g /data/putnamlab/tconn/training/genome.fasta --IMPORT_CUSTOM_ALIGNMENTS /data/putnamlab/tconn/training/trinity.alignments.gff3 -T -t /data/putnamlab/tconn/training/trinity.fasta.clean -u /data/putnamlab/tconn/training/trinity.fasta --stringent_alignment_overlap 30.0 --TRANSDECODER --ALT_SPLICE --MAX_INTRON_LENGTH 100000 --CPU 20 --ALIGNERS blat --trans_gtf /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf

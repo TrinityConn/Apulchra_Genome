@@ -1,0 +1,12 @@
+logname: no login name
+logname: no login name
+Traceback (most recent call last):
+  File "/venv/bin/funannotate", line 8, in <module>
+    sys.exit(main())
+  File "/venv/lib/python3.8/site-packages/funannotate/funannotate.py", line 717, in main
+    mod.main(arguments)
+  File "/venv/lib/python3.8/site-packages/funannotate/train.py", line 760, in main
+    os.makedirs(d)
+  File "/venv/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 30] Read-only file system: '/data/putnamlab/tconn/training'

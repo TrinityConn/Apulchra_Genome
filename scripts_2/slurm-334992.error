@@ -1,0 +1,8 @@
+usage: funannotate-train.py [options] -i genome.fasta
+funannotate-train.py: error: unrecognized arguments:  
+/var/spool/slurmd/job334992/slurm_script: line 21: -l: command not found
+/var/spool/slurmd/job334992/slurm_script: line 22: -r: command not found
+/var/spool/slurmd/job334992/slurm_script: line 23: --memory: command not found
+/var/spool/slurmd/job334992/slurm_script: line 24: --no_trimmomatic: command not found
+/var/spool/slurmd/job334992/slurm_script: line 25: --pasa_db: command not found
+/var/spool/slurmd/job334992/slurm_script: line 27: --species: command not found

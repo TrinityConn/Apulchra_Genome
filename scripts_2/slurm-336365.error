@@ -1,0 +1,25 @@
+-------------------------------------------------------
+[Aug 30 04:44 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Aug 30 04:44 PM]: Running funannotate v1.8.17
+[Aug 30 04:44 PM]: GeneMark not found and $GENEMARK_PATH environmental variable missing. Will skip GeneMark ab-initio prediction.
+[Aug 30 04:44 PM]: Found training files, will re-use these files:
+  --rna_bam /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+  --pasa_gff /data/putnamlab/tconn/training/funannotate_train.pasa.gff3
+  --stringtie /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+  --transcript_alignments /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Aug 30 04:45 PM]: Parsed training data, run ab-initio gene predictors as follows:
+  [4mProgram        Training-Method[0m
+  augustus       pasa           
+  codingquarry   rna-bam        
+  glimmerhmm     pasa           
+  snap           pasa           
+[Aug 30 04:46 PM]: Loading genome assembly and parsing soft-masked repetitive sequences
+[Aug 30 04:47 PM]: Genome loaded: 174 scaffolds; 518,313,916 bp; 16.74% repeats masked
+[Aug 30 04:47 PM]: Parsed 312,278 transcript alignments from: /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Aug 30 04:47 PM]: Creating transcript EVM alignments and Augustus transcripts hintsfile
+[Aug 30 04:47 PM]: Extracting hints from RNA-seq BAM file using bam2hints
+/home/trinity.conn/.conda/envs/annotate/lib/python3.9/site-packages/funannotate/aux_scripts/funannotate-p2g.py:14: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import parse_version
+[Aug 30 04:48 PM]: Mapping 558,971 proteins to genome using diamond and exonerate
+[Aug 30 04:53 PM]: Found 147,941 preliminary alignments with diamond in 0:05:16 --> generated FASTA files for exonerate in 0:00:33
+slurmstepd: error: *** JOB 336365 ON n075 CANCELLED AT 2024-08-30T16:54:47 ***

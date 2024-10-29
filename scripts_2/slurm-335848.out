@@ -1,0 +1,6 @@
+
+240826 16:28:51 mysqld_safe Logging to '/var/lib/mysql/n063.cluster.com.err'.
+Usage:
+  apptainer [global options...] instance stop [stop options...] [instance]
+
+Run 'apptainer --help' for more detailed usage information.

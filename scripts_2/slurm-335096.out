@@ -1,0 +1,23 @@
+-----------------------------------------------
+174 input contigs, 174 larger than 500 bp, N50 is 17,861,421 bp
+Checking duplication of 164 contigs shorter than N50
+-----------------------------------------------
+ptg000128l appears duplicated: 98% identity over 101% of the contig. contig length: 44614
+ptg000106l appears duplicated: 98% identity over 101% of the contig. contig length: 40480
+ptg000109l appears duplicated: 98% identity over 101% of the contig. contig length: 39719
+ptg000063l appears duplicated: 98% identity over 101% of the contig. contig length: 30461
+ptg000117l appears duplicated: 97% identity over 100% of the contig. contig length: 30111
+ptg000127l appears duplicated: 99% identity over 100% of the contig. contig length: 27913
+ptg000050l appears duplicated: 98% identity over 101% of the contig. contig length: 26409
+ptg000107l appears duplicated: 98% identity over 100% of the contig. contig length: 62728
+ptg000130l appears duplicated: 97% identity over 101% of the contig. contig length: 35903
+ptg000112l appears duplicated: 99% identity over 100% of the contig. contig length: 35652
+ptg000129l appears duplicated: 99% identity over 100% of the contig. contig length: 33457
+ptg000101l appears duplicated: 97% identity over 101% of the contig. contig length: 31218
+ptg000119l appears duplicated: 97% identity over 100% of the contig. contig length: 15671
+ptg000167l appears duplicated: 99% identity over 100% of the contig. contig length: 15185
+ptg000136l appears duplicated: 100% identity over 100% of the contig. contig length: 13191
+ptg000166l appears duplicated: 99% identity over 100% of the contig. contig length: 10083
+ptg000180l appears duplicated: 100% identity over 100% of the contig. contig length: 6597
+-----------------------------------------------
+174 input contigs; 174 larger than 500 bp; 17 duplicated; 157 written to file

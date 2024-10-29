@@ -1,0 +1,3 @@
+/net/clusterhn.cluster.com/home/trinity.conn/miniforge3/bin/funannotate:11: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import get_distribution
+slurmstepd: error: *** JOB 335134 ON n065 CANCELLED AT 2024-08-20T23:37:04 ***

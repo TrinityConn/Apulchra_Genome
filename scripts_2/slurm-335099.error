@@ -1,0 +1,9 @@
+mkdir: cannot create directory '/data/putnamlab/tconn/apul_anotation': File exists
+logname: no login name
+logname: no login name
+usage: funannotate-train.py [options] -i genome.fasta
+funannotate-train.py: error: unrecognized arguments:  
+/var/spool/slurmd/job335099/slurm_script: line 21: -l: command not found
+/var/spool/slurmd/job335099/slurm_script: line 24: --no_trimmomatic: command not found
+/var/spool/slurmd/job335099/slurm_script: line 25: --pasa_db: command not found
+/var/spool/slurmd/job335099/slurm_script: line 27: --species: command not found

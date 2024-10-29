@@ -1,0 +1,48 @@
+-------------------------------------------------------
+[Sep 03 03:13 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Sep 03 03:13 PM]: Running funannotate v1.8.17
+[Sep 03 03:13 PM]: Found training files, will re-use these files:
+  --rna_bam /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+  --pasa_gff /data/putnamlab/tconn/training/funannotate_train.pasa.gff3
+  --stringtie /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+  --transcript_alignments /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Sep 03 03:14 PM]: Skipping CodingQuarry as --organism=other. Pass a weight larger than 0 to run CQ, ie --weights codingquarry:1
+[Sep 03 03:14 PM]: Parsed training data, run ab-initio gene predictors as follows:
+  [4mProgram      Training-Method[0m
+  augustus     pasa           
+  glimmerhmm   pasa           
+  snap         pasa           
+[Sep 03 03:15 PM]: Loading genome assembly and parsing soft-masked repetitive sequences
+[Sep 03 03:16 PM]: Genome loaded: 174 scaffolds; 518,313,916 bp; 16.74% repeats masked
+[Sep 03 03:16 PM]: Parsed 312,278 transcript alignments from: /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Sep 03 03:16 PM]: Creating transcript EVM alignments and Augustus transcripts hintsfile
+[Sep 03 03:16 PM]: Existing RNA-seq BAM hints found: /data/putnamlab/tconn/predict_misc/hints.BAM.gff
+[Sep 03 03:16 PM]: Existing protein alignments found: /data/putnamlab/tconn/predict_misc/protein_alignments.gff3
+[Sep 03 03:17 PM]: Filtering PASA data for suitable training set
+[Sep 03 03:18 PM]: 4,569 of 36,860 models pass training parameters
+[Sep 03 03:18 PM]: Training Augustus using PASA gene models
+[Sep 03 03:21 PM]: Augustus initial training results:
+  [4mFeature       Specificity   Sensitivity[0m
+  nucleotides   94.7%         82.4%      
+  exons         85.9%         84.1%      
+  genes         28.4%         25.2%      
+[Sep 03 03:21 PM]: Accuracy seems low, you can try to improve by passing the --optimize_augustus option.
+[Sep 03 03:21 PM]: Running Augustus gene prediction using acropora_pulchra parameters
+[Sep 03 04:01 PM]: 44,590 predictions from Augustus
+[Sep 03 04:01 PM]: Pulling out high quality Augustus predictions
+[Sep 03 04:01 PM]: Found 12,070 high quality predictions from Augustus (>90% exon evidence)
+[Sep 03 04:01 PM]: Running SNAP gene prediction, using training data: /data/putnamlab/tconn/predict_misc/final_training_models.gff3
+[Sep 03 04:26 PM]: 72,836 predictions from SNAP
+[Sep 03 04:26 PM]: Running GlimmerHMM gene prediction, using training data: /data/putnamlab/tconn/predict_misc/final_training_models.gff3
+[Sep 03 05:21 PM]: 87,381 predictions from GlimmerHMM
+[Sep 03 05:21 PM]: Summary of gene models passed to EVM (weights):
+  [4mSource         Weight   Count [0m
+  Augustus       1        32520 
+  Augustus HiQ   2        12070 
+  GlimmerHMM     1        87381 
+  pasa           6        36860 
+  snap           1        72836 
+  Total          -        241667
+[Sep 03 05:21 PM]: EVM: partitioning input to ~ 35 genes per partition using min 1500 bp interval
+[Sep 03 05:46 PM]: Converting to GFF3 and collecting all EVM results
+[Sep 03 05:46 PM]: Evidence modeler has failed, exiting

@@ -1,0 +1,22 @@
+[Aug 30 02:58 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Aug 30 02:58 PM]: Running 1.8.17
+[Aug 30 02:58 PM]: Trimmomatic will be skipped
+[Aug 30 02:59 PM]: 401,717 existing Trinity results found: /data/putnamlab/tconn/training/trinity.fasta
+[Aug 30 02:59 PM]: Removing poly-A sequences from trinity transcripts using seqclean
+[Aug 30 02:59 PM]: Existing SeqClean output found: /data/putnamlab/tconn/training/trinity.fasta.clean
+[Aug 30 02:59 PM]: Existing BAM alignments found: /data/putnamlab/tconn/training/trinity.alignments.bam, /data/putnamlab/tconn/training/transcript.alignments.bam
+[Aug 30 02:59 PM]: Existing PASA assemblies found: /data/putnamlab/tconn/training/pasa/Acropora_pulchra_pasa.assemblies.fasta
+[Aug 30 03:04 PM]: PASA assigned 291,320 transcripts to 224,820 loci (genes)
+[Aug 30 03:04 PM]: Getting PASA models for training with TransDecoder
+[Aug 30 03:30 PM]: PASA finished. PASAweb accessible via: localhost:port/cgi-bin/index.cgi?db=/data/putnamlab/tconn/training/pasa/Acropora_pulchra_pasa
+[Aug 30 03:30 PM]: Using Kallisto TPM data to determine which PASA gene models to select at each locus
+[Aug 30 03:30 PM]: Building Kallisto index
+[Aug 30 03:35 PM]: Mapping reads using pseudoalignment in Kallisto
+[Aug 30 03:57 PM]: Parsing expression value results. Keeping best transcript at each locus.
+[Aug 30 04:17 PM]: Wrote 36,860 PASA gene models
+[Aug 30 04:17 PM]: PASA database name: Acropora_pulchra
+[Aug 30 04:17 PM]: Trinity/PASA has completed, you are now ready to run funanotate predict, for example:
+
+  funannotate predict -i /data/putnamlab/tconn/repeats/apul_softmasked/apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa.masked \
+            -o /data/putnamlab/tconn/ -s "Acropora pulchra" --cpus 20
+

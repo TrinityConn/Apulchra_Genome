@@ -1,0 +1,8 @@
+[M::mm_idx_gen::8.105*1.56] collected minimizers
+[M::mm_idx_gen::10.022*1.80] sorted minimizers
+[M::main::10.023*1.80] loaded/built the index for 174 target sequence(s)
+[M::mm_mapopt_update::10.800*1.74] mid_occ = 226
+[M::mm_idx_stat] kmer size: 19; skip: 10; is_hpc: 1; #seq: 174
+[M::mm_idx_stat::11.239*1.71] distinct minimizers: 32960042 (73.15% are singletons); average occurrences: 2.006; average spacing: 7.838; total length: 518313916
+ERROR: failed to open file '/data/putnamlab/jillashey/Apul_genome/data/m84100_240128_024355_s2.hifi_reads.bc1029.fastq': No such file or directory
+ERROR: failed to map the query file

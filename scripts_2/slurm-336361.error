@@ -1,0 +1,4 @@
+-------------------------------------------------------
+[Aug 30 04:27 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Aug 30 04:27 PM]: Running funannotate v1.8.17
+[Aug 30 04:27 PM]: Funannotate database not properly configured, run funannotate setup.

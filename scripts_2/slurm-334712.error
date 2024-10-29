@@ -1,0 +1,6 @@
+Warning: [makeblastdb] 
+Input file GCF_000222465.1_Adig_1.1_protein.faa.gz does NOT appear to be FASTA (processing anyway).
+Advise validating database with 'blastdbcheck -dbtype [prot|nucl] -db ${DBNAME}'
+
+BLAST Database creation error: Input doesn't start with a defline or comment around line 1
+BLAST Database error: Database memory map file error

@@ -1,0 +1,99 @@
+Starting mito assembly with Amillepora refs Fri Jun 21 13:49:48 EDT 2024
+2024-06-21 13:49:51 [INFO] Welcome to MitoHifi v2. Starting pipeline...
+2024-06-21 13:49:51 [INFO] Length of related mitogenome is: 18479 bp
+2024-06-21 13:49:51 [INFO] Number of genes on related mitogenome: 17
+2024-06-21 13:49:51 [INFO] Running MitoHifi pipeline in reads mode...
+2024-06-21 13:49:51 [INFO] 1. First we map your Pacbio HiFi reads to the close-related mitogenome
+2024-06-21 13:49:51 [INFO] minimap2 -t 8 --secondary=no -ax map-hifi NC_022830.1.fasta m84100_240128_024355_s2.hifi_reads.bc1029.fasta | samtools view -@ 8 -b -F4 -F 0x800 -o reads.HiFiMapped.bam
+2024-06-21 13:55:23 [INFO] 2. Now we filter out any mapped reads that are larger than the reference mitogenome to avoid NUMTS
+2024-06-21 13:55:23 [INFO] 2.1 First we convert the mapped reads from BAM to FASTA format:
+2024-06-21 13:55:23 [INFO] samtools fasta reads.HiFiMapped.bam > gbk.HiFiMapped.bam.fasta
+2024-06-21 13:55:24 [INFO] Total number of mapped reads: 1598
+2024-06-21 13:55:24 [INFO] 2.2 Then we filter reads that are larger than 18479 bp
+2024-06-21 13:55:24 [INFO] Number of filtered reads: 1506
+2024-06-21 13:55:24 [INFO] 3. Now let's run hifiasm to assemble the mapped and filtered reads!
+2024-06-21 13:55:24 [INFO] hifiasm --primary -t 8 -f 0 -o gbk.HiFiMapped.bam.filtered.assembled gbk.HiFiMapped.bam.filtered.fasta
+2024-06-21 13:55:54 [INFO] 4. Let's run the blast of the contigs versus the close-related mitogenome
+2024-06-21 13:55:54 [INFO] 4.1. Creating BLAST database:
+2024-06-21 13:55:54 [INFO] makeblastdb -in NC_022830.1.fasta -dbtype nucl
+2024-06-21 13:55:54 [INFO] Makeblastdb done.
+2024-06-21 13:55:54 [INFO] 4.2. Running blast of contigs against close-related mitogenome:
+2024-06-21 13:55:54 [INFO] blastn -query hifiasm.contigs.fasta -db NC_022830.1.fasta -num_threads 8 -out contigs.blastn -outfmt 6 std qlen slen
+2024-06-21 13:55:55 [INFO] Blast done.
+2024-06-21 13:55:55 [INFO] 5. Filtering BLAST output to select target sequences
+2024-06-21 13:55:55 [INFO] Filtering thresholds applied:
+2024-06-21 13:55:55 [INFO] Minimum query percentage = 50
+2024-06-21 13:55:55 [INFO] Minimum query length = 80% subject length
+2024-06-21 13:55:55 [INFO] Maximum query length = 5 times subject length
+2024-06-21 13:55:55 [INFO] Filtering BLAST finished. A list of the filtered contigs was saved on ./contigs_filtering/contigs_ids.txt file
+2024-06-21 13:55:55 [INFO] 6. Now we are going to circularize, annotate and rotate each filtered contig. Those are potential mitogenome(s).
+2024-06-21 13:55:55 [INFO] Annotation will be done using MitoFinder (default)
+2024-06-21 13:55:55 [INFO] Working with contig ptg000001c
+2024-06-21 13:55:55 [INFO] Working with contig ptg000003l
+2024-06-21 13:55:55 [INFO] Started ptg000001c circularization
+2024-06-21 13:55:55 [INFO] Started ptg000003l circularization
+2024-06-21 13:55:55 [INFO] ptg000001c circularization done. Circularization info saved on ./potential_contigs/ptg000001c/ptg000001c.circularisationCheck.txt
+2024-06-21 13:55:55 [INFO] Started ptg000001c (MitoFinder) annotation
+2024-06-21 13:55:56 [INFO] ptg000003l circularization done. Circularization info saved on ./potential_contigs/ptg000003l/ptg000003l.circularisationCheck.txt
+2024-06-21 13:55:56 [INFO] Started ptg000003l (MitoFinder) annotation
+2024-06-21 13:55:58 [INFO] ptg000001c annotation done. Annotation log saved on ./potential_contigs/ptg000001c/ptg000001c.annotation_MitoFinder.log
+2024-06-21 13:58:54 [INFO] ptg000003l annotation done. Annotation log saved on ./potential_contigs/ptg000003l/ptg000003l.annotation_MitoFinder.log
+2024-06-21 13:58:54 [INFO] Started ptg000001c rotation.
+2024-06-21 13:58:54 [INFO] Started ptg000003l rotation.
+2024-06-21 13:58:54 [INFO] tRNA-Gly is at reverse complement of ptg000003l.mitogenome.fa
+2024-06-21 13:58:54 [INFO] For that reason we'll reverse complement ptg000003l.mitogenome.fa before the rotation
+2024-06-21 13:58:55 [INFO] Reverse complementation completed for contig ptg000003l done
+2024-06-21 13:58:55 [INFO] Rotation of ptg000003l done. Rotated is at ptg000003l.mitogenome.rotated.fa
+2024-06-21 13:58:55 [INFO] Started calculating mitocontig stats... ptg000003l
+2024-06-21 13:58:55 [INFO] 7. Now the rotated contigs will be aligned
+2024-06-21 13:58:55 [INFO] List of contigs that will be aligned: ['ptg000003l.mitogenome.rotated.fa']
+
+2024-06-21 13:58:55 [INFO] MAFFT alignment will be called with:
+mafft --quiet --clustalout --thread 8 all_mitogenomes.rotated.fa > all_mitogenomes.rotated.aligned.aln
+
+2024-06-21 13:58:55 [INFO] Alignment done and saved at ./final_mitogenome_choice/all_mitogenomes.rotated.aligned.aln
+
+2024-06-21 13:58:55 [INFO] 8. Now we will choose the most representative contig
+
+2024-06-21 13:58:56 [INFO] Representative contig is ptg000003l that belongs to Cluster 0. This contig will be our final mitogenome. See all contigs and clusters in cdhit.out.clstr
+2024-06-21 13:58:56 [INFO] 9. Calculating final stats for final mitogenome and other potential contigs.
+    Stats will be saved on contigs_stats.tsv file.
+ptg000003l list of genes: ['tRNA-Gly', 'ND4', 'ATP6', 'ND6', 'ND2', 'tRNA-His', 'CYTB', 'ND1', 'tRNA-Glu', 'rrnL', 'tRNA-Ser', 'tRNA-Met', 'COX1', 'tRNA-Pro', 'ATP8', 'tRNA-Trp', 'ND5', 'tRNA-Asp', 'ND3', 'ND4L', 'COX2', 'tRNA-Gln', 'tRNA-Arg', 'COX3']
+2024-06-21 13:58:56 [INFO] 10. Building annotation plots for all contigs
+2024-06-21 13:58:56 [INFO] 11. Building coverage distribution for each potential contig
+2024-06-21 13:58:56 [INFO] contigs_to_map: ['final_mitogenome.fasta', 'ptg000003l.mitogenome.rotated.fa']
+2024-06-21 13:58:56 [INFO] 11.1 Mapping HiFi (filtered) reads against potential contigs:
+2024-06-21 13:58:56 [INFO] Reads mapping:
+2024-06-21 13:58:56 [INFO] minimap2 -t 8 --secondary=no -ax map-pb all_potential_contigs.fa gbk.HiFiMapped.bam.fasta | samtools view -@ 8 -b -F4 -F 0x800 -q 0 -o HiFi-vs-potential_contigs.bam
+[W::sam_hdr_parse] Duplicated sequence 'ptg000003l_rc_rotated'
+2024-06-21 13:58:58 [INFO] Sorting mapping file:
+2024-06-21 13:58:58 [INFO] samtools sort -@ 8 HiFi-vs-potential_contigs.bam -o HiFi-vs-potential_contigs.sorted.bam
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+2024-06-21 13:58:58 [INFO] Indexing sorted mapping file:
+2024-06-21 13:58:58 [INFO] samtools index HiFi-vs-potential_contigs.sorted.bam
+2024-06-21 13:58:58 [INFO] HiFi reads mapping done. Output file: HiFi-vs-potential_contigs.sorted.bam
+2024-06-21 13:58:58 [INFO] Retrieve BAM for contig ptg000003l:
+2024-06-21 13:58:58 [INFO] samtools view -@ 8 -b -o ptg000003l.bam HiFi-vs-potential_contigs.sorted.bam ptg000003l_rc_rotated
+2024-06-21 13:58:59 [INFO] Sorting mapping file:
+2024-06-21 13:58:59 [INFO] samtools sort -@ 8 ptg000003l.bam -o ptg000003l.sorted.bam
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+2024-06-21 13:58:59 [INFO] Indexing sorted mapping file:
+2024-06-21 13:58:59 [INFO] samtools index ptg000003l.sorted.bam
+2024-06-21 13:58:59 [INFO] Splitting mapping file done. Individual mapped contigs: ['ptg000003l']
+2024-06-21 13:58:59 [INFO] 11.2 Creating coverage plot...
+2024-06-21 13:58:59 [INFO] Coverage plots created.
+2024-06-21 13:58:59 [INFO] 12. Building coverage distribution for final mitogenome
+2024-06-21 13:58:59 [INFO] 12.1 Mapping HiFi (filtered) reads against final_mitogenome.fasta:
+2024-06-21 13:58:59 [INFO] Reads mapping:
+2024-06-21 13:58:59 [INFO] minimap2 -t 8 --secondary=no -ax map-pb final_mitogenome.fasta gbk.HiFiMapped.bam.fasta | samtools view -@ 8 -b -F4 -F 0x800 -q 0 -o HiFi-vs-final_mitogenome.bam
+2024-06-21 13:59:00 [INFO] Sorting mapping file:
+2024-06-21 13:59:00 [INFO] samtools sort -@ 8 HiFi-vs-final_mitogenome.bam -o HiFi-vs-final_mitogenome.sorted.bam
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+2024-06-21 13:59:01 [INFO] Indexing sorted mapping file:
+2024-06-21 13:59:01 [INFO] samtools index HiFi-vs-final_mitogenome.sorted.bam
+2024-06-21 13:59:01 [INFO] HiFi reads mapping done. Output file: HiFi-vs-final_mitogenome.sorted.bam
+2024-06-21 13:59:01 [INFO] 12.2 Creating coverage plot...
+2024-06-21 13:59:01 [INFO] Coverage plot for final_mitogenome created...
+2024-06-21 13:59:06 [INFO] Pipeline finished!
+2024-06-21 13:59:06 [INFO] Run time: 554.82 seconds
+Mito assembly complete! Fri Jun 21 13:59:06 EDT 2024

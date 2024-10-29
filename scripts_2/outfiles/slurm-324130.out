@@ -1,0 +1,16 @@
+Starting mito assembly with Amillepora refs Fri Jun 21 12:48:15 EDT 2024
+2024-06-21 12:48:17 [INFO] Welcome to MitoHifi v2. Starting pipeline...
+2024-06-21 12:48:17 [INFO] Length of related mitogenome is: 18366 bp
+2024-06-21 12:48:17 [INFO] Number of genes on related mitogenome: 16
+2024-06-21 12:48:17 [INFO] Running MitoHifi pipeline in reads mode...
+2024-06-21 12:48:17 [INFO] 1. First we map your Pacbio HiFi reads to the close-related mitogenome
+2024-06-21 12:48:17 [INFO] minimap2 -t 20 --secondary=no -ax map-hifi NC_081453.1.fasta m84100_240128_024355_s2.hifi_reads.bc1029.fasta | samtools view -@ 20 -b -F4 -F 0x800 -o reads.HiFiMapped.bam
+2024-06-21 12:52:18 [INFO] 2. Now we filter out any mapped reads that are larger than the reference mitogenome to avoid NUMTS
+2024-06-21 12:52:18 [INFO] 2.1 First we convert the mapped reads from BAM to FASTA format:
+2024-06-21 12:52:18 [INFO] samtools fasta reads.HiFiMapped.bam > gbk.HiFiMapped.bam.fasta
+2024-06-21 12:52:19 [INFO] Total number of mapped reads: 1598
+2024-06-21 12:52:19 [INFO] 2.2 Then we filter reads that are larger than 18366 bp
+2024-06-21 12:52:19 [INFO] Number of filtered reads: 1500
+2024-06-21 12:52:19 [INFO] 3. Now let's run hifiasm to assemble the mapped and filtered reads!
+2024-06-21 12:52:19 [INFO] hifiasm --primary -t 20 -f 0 -o gbk.HiFiMapped.bam.filtered.assembled gbk.HiFiMapped.bam.filtered.fasta
+Mito assembly complete! Fri Jun 21 12:52:19 EDT 2024

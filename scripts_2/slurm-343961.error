@@ -1,0 +1,54 @@
+INFO:    Instance stats will not be available - requires cgroups v2 with systemd as manager.
+INFO:    instance started successfully
+2024-10-16T21:08:30.692862Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-10-16T21:08:30.804755Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 23 ...
+2024-10-16T21:08:31.011703Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-10-16T21:08:31.011908Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-10-16T21:08:31.011999Z 0 [Note] InnoDB: Uses event mutexes
+2024-10-16T21:08:31.012134Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-10-16T21:08:31.012203Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-10-16T21:08:31.015891Z 0 [Note] InnoDB: Number of pools: 1
+2024-10-16T21:08:31.024344Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-10-16T21:08:31.030123Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-10-16T21:08:31.043360Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-16T21:08:31.047666Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-10-16T21:08:31.086523Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-10-16T21:08:31.110637Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2552128
+2024-10-16T21:08:31.110784Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2552137
+2024-10-16T21:08:31.110924Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-10-16T21:08:31.111064Z 0 [Note] InnoDB: Starting crash recovery.
+2024-10-16T21:08:31.361515Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-16T21:08:31.361719Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-16T21:08:31.423068Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-16T21:08:31.517815Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-10-16T21:08:31.584310Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-10-16T21:08:31.605801Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-10-16T21:08:31.628490Z 0 [Note] InnoDB: Waiting for purge to start
+2024-10-16T21:08:31.679334Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2552137
+2024-10-16T21:08:31.680393Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2024-10-16T21:08:31.684084Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-10-16T21:08:31.717670Z 0 [Note] InnoDB: Buffer pool(s) load completed at 241016 17:08:31
+2024-10-16T21:08:31.724268Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-10-16T21:08:31.730995Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-10-16T21:08:31.732070Z 0 [Note] IPv6 is available.
+2024-10-16T21:08:31.733539Z 0 [Note]   - '::' resolves to '::';
+2024-10-16T21:08:31.733743Z 0 [Note] Server socket created on IP: '::'.
+2024-10-16T21:08:31.964188Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:31.964462Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:31.964707Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:31.965630Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:31.965774Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:31.966694Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:32.028115Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:32.028189Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:08:32.403812Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-10-16T21:08:32.404007Z 0 [Note] Execution of init_file '/home/trinity.conn/.mysqlrootpw' started.
+2024-10-16T21:08:32.412766Z 0 [Note] Execution of init_file '/home/trinity.conn/.mysqlrootpw' ended.
+2024-10-16T21:08:32.412895Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[Oct 16 05:08 PM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.9.19
+[Oct 16 05:08 PM]: Running 1.8.17
+[Oct 16 05:08 PM]: Multiple inputs for --left and --right detected, concatenating PE reads
+[Oct 16 05:16 PM]: Trimmomatic will be skipped
+[Oct 16 05:16 PM]: Running read normalization with Trinity
+slurmstepd: error: *** JOB 343961 ON n063 CANCELLED AT 2024-10-16T17:19:43 ***

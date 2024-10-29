@@ -1,0 +1,15 @@
+/var/spool/slurmd/job343984/slurm_script: line 18: cd: /data/putnamlab/tconn/mysql: No such file or directory
+FATAL:   While checking container encryption: could not open image /data/putnamlab/tconn/scripts/mysql.simg: failed to retrieve path for /data/putnamlab/tconn/scripts/mysql.simg: lstat /glfs/brick01/gv0/putnamlab/tconn/scripts/mysql.simg: no such file or directory
+FATAL:   While setting image/instance: no instance found with name mysql
+/var/spool/slurmd/job343984/slurm_script: line 26: ./data/putnamlab/tconn/scripts/./update_mysql_host.sh: No such file or directory
+[Oct 16 07:00 PM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.9.19
+[Oct 16 07:00 PM]: Running 1.8.17
+[Oct 16 07:00 PM]: Trimmomatic will be skipped
+[Oct 16 07:00 PM]: 401,717 existing Trinity results found: /data/putnamlab/tconn/training/trinity.fasta
+[Oct 16 07:00 PM]: Removing poly-A sequences from trinity transcripts using seqclean
+[Oct 16 07:00 PM]: Existing SeqClean output found: /data/putnamlab/tconn/training/trinity.fasta.clean
+[Oct 16 07:00 PM]: Existing BAM alignments found: /data/putnamlab/tconn/training/trinity.alignments.bam, /data/putnamlab/tconn/training/transcript.alignments.bam
+[Oct 16 07:00 PM]: Running PASA alignment step using 401,705 transcripts
+[Oct 16 07:00 PM]: CMD ERROR: /home/trinity.conn/.conda/envs/annotate/opt/pasa-2.5.3/Launch_PASA_pipeline.pl -c /data/putnamlab/tconn/training/pasa/alignAssembly.txt -r -C -R -g /data/putnamlab/tconn/training/genome.fasta --IMPORT_CUSTOM_ALIGNMENTS /data/putnamlab/tconn/training/trinity.alignments.gff3 -T -t /data/putnamlab/tconn/training/trinity.fasta.clean -u /data/putnamlab/tconn/training/trinity.fasta --stringent_alignment_overlap 30.0 --TRANSDECODER --ALT_SPLICE --MAX_INTRON_LENGTH 100000 --CPU 20 --ALIGNERS blat --trans_gtf /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+Error for command "stop": no instance found
+

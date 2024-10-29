@@ -1,0 +1,14 @@
+/net/clusterhn.cluster.com/home/trinity.conn/miniforge3/bin/funannotate:11: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import get_distribution
+[12:11 AM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.10.14
+[12:11 AM]: Running 1.8.3
+[12:11 AM]: Multiple inputs for --left and --right detected, concatenating PE reads
+[12:19 AM]: Trimmomatic will be skipped
+[12:19 AM]: Running read normalization with Trinity
+[02:16 PM]: Building Hisat2 genome index
+[02:20 PM]: Aligning reads to genome using Hisat2
+[02:40 PM]: Running genome-guided Trinity, logfile: /data/putnamlab/tconn/training/Trinity-gg.log
+[02:40 PM]: Clustering of reads from BAM and preparing assembly commands
+[03:20 PM]: CMD ERROR: Trinity --no_distributed_trinity_exec --genome_guided_bam /data/putnamlab/tconn/training/hisat2.coordSorted.bam --genome_guided_max_intron 100000 --CPU 20 --max_memory 100G --output /data/putnamlab/tconn/training/trinity_gg
+[03:20 PM]: (None, b'')
+[03:20 PM]: ERROR: Trinity de novo assembly failed

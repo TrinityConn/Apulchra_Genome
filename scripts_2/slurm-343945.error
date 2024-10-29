@@ -1,0 +1,112 @@
+INFO:    Instance stats will not be available - requires cgroups v2 with systemd as manager.
+INFO:    instance started successfully
+/var/spool/slurmd/job343945/slurm_script: line 25: ./data/putnamlab/tconn/scripts/update_mysql_host.sh: No such file or directory
+2024-10-16T18:38:36.638749Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-10-16T18:38:36.658781Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 22 ...
+2024-10-16T18:38:36.852371Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-10-16T18:38:36.852580Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-10-16T18:38:36.852645Z 0 [Note] InnoDB: Uses event mutexes
+2024-10-16T18:38:36.852719Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-10-16T18:38:36.852774Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-10-16T18:38:36.856245Z 0 [Note] InnoDB: Number of pools: 1
+2024-10-16T18:38:36.862861Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-10-16T18:38:36.866917Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-10-16T18:38:36.877618Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-16T18:38:36.881235Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-10-16T18:38:36.907885Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-10-16T18:38:36.929399Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2552134
+2024-10-16T18:38:36.929533Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2552143
+2024-10-16T18:38:36.929586Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-10-16T18:38:36.929662Z 0 [Note] InnoDB: Starting crash recovery.
+2024-10-16T18:38:37.119608Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-16T18:38:37.119759Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+[Oct 16 02:38 PM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.9.19
+[Oct 16 02:38 PM]: Running 1.8.17
+2024-10-16T18:38:37.194762Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-16T18:38:37.243718Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-10-16T18:38:37.245792Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-10-16T18:38:37.245920Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-10-16T18:38:37.246696Z 0 [Note] InnoDB: Waiting for purge to start
+2024-10-16T18:38:37.297079Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2552143
+2024-10-16T18:38:37.297998Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2024-10-16T18:38:37.301001Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-10-16T18:38:37.310102Z 0 [Note] InnoDB: Buffer pool(s) load completed at 241016 14:38:37
+2024-10-16T18:38:37.337510Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-10-16T18:38:37.343275Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-10-16T18:38:37.344179Z 0 [Note] IPv6 is available.
+2024-10-16T18:38:37.345835Z 0 [Note]   - '::' resolves to '::';
+2024-10-16T18:38:37.346030Z 0 [Note] Server socket created on IP: '::'.
+2024-10-16T18:38:37.348561Z 0 [ERROR] Another process with pid 23 is using unix socket file.
+2024-10-16T18:38:37.348787Z 0 [ERROR] Unable to setup unix socket lock file.
+2024-10-16T18:38:37.348939Z 0 [ERROR] Aborting
+
+2024-10-16T18:38:37.349134Z 0 [Note] Binlog end
+2024-10-16T18:38:37.349402Z 0 [Note] Shutting down plugin 'ngram'
+2024-10-16T18:38:37.349586Z 0 [Note] Shutting down plugin 'partition'
+2024-10-16T18:38:37.349648Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2024-10-16T18:38:37.349708Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2024-10-16T18:38:37.349759Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2024-10-16T18:38:37.349852Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2024-10-16T18:38:37.349915Z 0 [Note] Shutting down plugin 'MyISAM'
+2024-10-16T18:38:37.351113Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2024-10-16T18:38:37.351161Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2024-10-16T18:38:37.351226Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2024-10-16T18:38:37.351350Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2024-10-16T18:38:37.351468Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2024-10-16T18:38:37.351523Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2024-10-16T18:38:37.351590Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2024-10-16T18:38:37.351649Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2024-10-16T18:38:37.351705Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2024-10-16T18:38:37.351757Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2024-10-16T18:38:37.351809Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2024-10-16T18:38:37.351869Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2024-10-16T18:38:37.351920Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2024-10-16T18:38:37.351970Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2024-10-16T18:38:37.352018Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2024-10-16T18:38:37.352071Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2024-10-16T18:38:37.352119Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2024-10-16T18:38:37.352171Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2024-10-16T18:38:37.352222Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2024-10-16T18:38:37.352274Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2024-10-16T18:38:37.352322Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2024-10-16T18:38:37.352370Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2024-10-16T18:38:37.352418Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2024-10-16T18:38:37.352474Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2024-10-16T18:38:37.352525Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2024-10-16T18:38:37.352572Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2024-10-16T18:38:37.352620Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2024-10-16T18:38:37.352675Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2024-10-16T18:38:37.352721Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2024-10-16T18:38:37.352769Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2024-10-16T18:38:37.352819Z 0 [Note] Shutting down plugin 'InnoDB'
+2024-10-16T18:38:37.352961Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2024-10-16T18:38:37.353147Z 0 [Note] InnoDB: Starting shutdown...
+2024-10-16T18:38:37.453739Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2024-10-16T18:38:37.669137Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 241016 14:38:37
+[Oct 16 02:38 PM]: No NCBI SBT file given, will use default, for NCBI submissions pass one here '--sbt'
+[Oct 16 02:38 PM]: Found relevant files in /data/putnamlab/tconn/training, will re-use them:
+	GFF3: /data/putnamlab/tconn/predict_results/Acropora_pulchra.gff3
+	Genome: /data/putnamlab/tconn/predict_results/Acropora_pulchra.scaffolds.fa
+	Forward reads: /data/putnamlab/tconn/training/left.fq.gz
+	Reverse reads: /data/putnamlab/tconn/training/right.fq.gz
+	Forward normalized reads: /data/putnamlab/tconn/training/normalize/left.norm.fq
+	Reverse normalized reads: /data/putnamlab/tconn/training/normalize/right.norm.fq
+	Trinity results: /data/putnamlab/tconn/training/funannotate_train.trinity-GG.fasta
+	PASA config file: /data/putnamlab/tconn/training/pasa/alignAssembly.txt
+	BAM alignments: /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+	StringTie GTF: /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+2024-10-16T18:38:38.795694Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2552162
+2024-10-16T18:38:38.809394Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-16T18:38:38.809464Z 0 [Note] Shutting down plugin 'MEMORY'
+2024-10-16T18:38:38.809534Z 0 [Note] Shutting down plugin 'CSV'
+2024-10-16T18:38:38.809594Z 0 [Note] Shutting down plugin 'sha256_password'
+2024-10-16T18:38:38.809645Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2024-10-16T18:38:38.809854Z 0 [Note] Shutting down plugin 'binlog'
+2024-10-16T18:38:38.810104Z 0 [Note] mysqld: Shutdown complete
+
+[Oct 16 02:39 PM]: Reannotating Acropora pulchra, NCBI accession: None
+[Oct 16 02:39 PM]: Previous annotation consists of: 36,447 protein coding gene models and 7,924 non-coding gene models
+[Oct 16 02:39 PM]: Existing annotation: locustag=FUN_ genenumber=44371
+[Oct 16 02:39 PM]: Trimmomatic will be skipped
+[Oct 16 02:39 PM]: Existing BAM alignments found: /data/putnamlab/tconn/update_misc/trinity.alignments.bam, /data/putnamlab/tconn/update_misc/transcript.alignments.bam
+slurmstepd: error: *** JOB 343945 ON n064 CANCELLED AT 2024-10-16T14:39:51 ***

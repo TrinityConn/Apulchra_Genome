@@ -1,0 +1,52 @@
+INFO:    Instance stats will not be available - requires cgroups v2 with systemd as manager.
+INFO:    instance started successfully
+2024-10-16T21:54:44.179494Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-10-16T21:54:44.277886Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 24 ...
+2024-10-16T21:54:44.453189Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-10-16T21:54:44.453419Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-10-16T21:54:44.453626Z 0 [Note] InnoDB: Uses event mutexes
+2024-10-16T21:54:44.453710Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-10-16T21:54:44.453851Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-10-16T21:54:44.458708Z 0 [Note] InnoDB: Number of pools: 1
+2024-10-16T21:54:44.465687Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-10-16T21:54:44.470510Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-10-16T21:54:44.482581Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-16T21:54:44.486072Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-10-16T21:54:44.516565Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-10-16T21:54:44.663913Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-16T21:54:44.738815Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-16T21:54:44.864616Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-10-16T21:54:44.866924Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-10-16T21:54:44.867059Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-10-16T21:54:44.867586Z 0 [Note] InnoDB: Waiting for purge to start
+2024-10-16T21:54:44.917932Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2552445
+2024-10-16T21:54:44.918248Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2024-10-16T21:54:44.921322Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-10-16T21:54:44.937477Z 0 [Note] InnoDB: Buffer pool(s) load completed at 241016 17:54:44
+2024-10-16T21:54:44.950132Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-10-16T21:54:44.950265Z 0 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3309
+2024-10-16T21:54:44.953933Z 0 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2024-10-16T21:54:44.954880Z 0 [Note] Server socket created on IP: '0.0.0.0'.
+2024-10-16T21:54:45.124312Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.124412Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.124482Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.124561Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.124614Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.124670Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.166362Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T21:54:45.166433Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+[Oct 16 05:54 PM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.9.19
+[Oct 16 05:54 PM]: Running 1.8.17
+2024-10-16T21:54:45.466777Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-10-16T21:54:45.467055Z 0 [Note] Execution of init_file '/home/trinity.conn/.mysqlrootpw' started.
+2024-10-16T21:54:45.473255Z 0 [Note] Execution of init_file '/home/trinity.conn/.mysqlrootpw' ended.
+2024-10-16T21:54:45.473525Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3309  MySQL Community Server (GPL)
+[Oct 16 05:54 PM]: Trimmomatic will be skipped
+[Oct 16 05:54 PM]: 401,717 existing Trinity results found: /data/putnamlab/tconn/training/trinity.fasta
+[Oct 16 05:54 PM]: Removing poly-A sequences from trinity transcripts using seqclean
+[Oct 16 05:54 PM]: Existing SeqClean output found: /data/putnamlab/tconn/training/trinity.fasta.clean
+[Oct 16 05:54 PM]: Existing BAM alignments found: /data/putnamlab/tconn/training/trinity.alignments.bam, /data/putnamlab/tconn/training/transcript.alignments.bam
+[Oct 16 05:54 PM]: Running PASA alignment step using 401,705 transcripts
+[Oct 16 05:54 PM]: CMD ERROR: /home/trinity.conn/.conda/envs/annotate/opt/pasa-2.5.3/Launch_PASA_pipeline.pl -c /data/putnamlab/tconn/training/pasa/alignAssembly.txt -r -C -R -g /data/putnamlab/tconn/training/genome.fasta --IMPORT_CUSTOM_ALIGNMENTS /data/putnamlab/tconn/training/trinity.alignments.gff3 -T -t /data/putnamlab/tconn/training/trinity.fasta.clean -u /data/putnamlab/tconn/training/trinity.fasta --stringent_alignment_overlap 30.0 --TRANSDECODER --ALT_SPLICE --MAX_INTRON_LENGTH 100000 --CPU 20 --ALIGNERS blat --trans_gtf /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+INFO:    Stopping mysql instance of /data/putnamlab/tconn/mysql/mysql.simg (PID=237978)

@@ -1,0 +1,59 @@
+-------------------------------------------------------
+[Sep 04 11:59 AM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Sep 04 11:59 AM]: Running funannotate v1.8.17
+[Sep 04 11:59 AM]: Found training files, will re-use these files:
+  --rna_bam /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+  --pasa_gff /data/putnamlab/tconn/training/funannotate_train.pasa.gff3
+  --stringtie /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+  --transcript_alignments /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Sep 04 11:59 AM]: Skipping CodingQuarry as --organism=other. Pass a weight larger than 0 to run CQ, ie --weights codingquarry:1
+[Sep 04 11:59 AM]: Parsed training data, run ab-initio gene predictors as follows:
+  [4mProgram      Training-Method[0m
+  augustus     pasa           
+  glimmerhmm   pasa           
+  snap         pasa           
+[Sep 04 12:01 PM]: Loading genome assembly and parsing soft-masked repetitive sequences
+[Sep 04 12:01 PM]: Genome loaded: 174 scaffolds; 518,313,916 bp; 16.74% repeats masked
+[Sep 04 12:01 PM]: Parsed 312,278 transcript alignments from: /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Sep 04 12:01 PM]: Creating transcript EVM alignments and Augustus transcripts hintsfile
+[Sep 04 12:02 PM]: Existing RNA-seq BAM hints found: /data/putnamlab/tconn/predict_misc/hints.BAM.gff
+[Sep 04 12:02 PM]: Existing protein alignments found: /data/putnamlab/tconn/predict_misc/protein_alignments.gff3
+[Sep 04 12:02 PM]: Filtering PASA data for suitable training set
+[Sep 04 12:04 PM]: 4,569 of 36,860 models pass training parameters
+[Sep 04 12:04 PM]: Existing Augustus annotations found: /data/putnamlab/tconn/predict_misc/augustus.gff3
+[Sep 04 12:04 PM]: Pulling out high quality Augustus predictions
+[Sep 04 12:04 PM]: Found 12,070 high quality predictions from Augustus (>90% exon evidence)
+[Sep 04 12:04 PM]: Existing snap predictions found /data/putnamlab/tconn/predict_misc/snap-predictions.gff3
+[Sep 04 12:04 PM]: 72,836 predictions from SNAP
+[Sep 04 12:04 PM]: Existing GlimmerHMM predictions found: /data/putnamlab/tconn/predict_misc/glimmerhmm-predictions.gff3
+[Sep 04 12:04 PM]: 87,381 predictions from GlimmerHMM
+[Sep 04 12:04 PM]: Summary of gene models passed to EVM (weights):
+  [4mSource         Weight   Count [0m
+  Augustus       1        32520 
+  Augustus HiQ   2        12070 
+  GlimmerHMM     1        87381 
+  pasa           6        36860 
+  snap           1        72836 
+  Total          -        241667
+[Sep 04 12:29 PM]: EVM: partitioning input to ~ 35 genes per partition using min 1500 bp interval
+[Sep 04 03:46 PM]: Converting to GFF3 and collecting all EVM results
+[Sep 04 03:46 PM]: 49,293 total gene models from EVM
+[Sep 04 03:46 PM]: Generating protein fasta files from 49,293 EVM models
+[Sep 04 03:47 PM]: now filtering out bad gene models (< 50 aa in length, transposable elements, etc).
+[Sep 04 03:47 PM]: Found 12,846 gene models to remove: 17 too short; 0 span gaps; 12,829 transposable elements
+[Sep 04 03:47 PM]: 36,447 gene models remaining
+[Sep 04 03:47 PM]: Predicting tRNAs
+[Sep 04 04:34 PM]: 7,924 tRNAscan models are valid (non-overlapping)
+[Sep 04 04:34 PM]: Generating GenBank tbl annotation file
+[Sep 04 04:36 PM]: Collecting final annotation files for 44,371 total gene models
+[Sep 04 04:36 PM]: Converting to final Genbank format
+[Sep 04 04:38 PM]: Funannotate predict is finished, output files are in the /data/putnamlab/tconn//predict_results folder
+[Sep 04 04:38 PM]: Your next step to capture UTRs and update annotation using PASA:
+
+  funannotate update -i /data/putnamlab/tconn/ --cpus 20
+
+[Sep 04 04:38 PM]: Training parameters file saved: /data/putnamlab/tconn/predict_results/acropora_pulchra.parameters.json
+[Sep 04 04:38 PM]: Add species parameters to database:
+
+  funannotate species -s acropora_pulchra -a /data/putnamlab/tconn/predict_results/acropora_pulchra.parameters.json
+

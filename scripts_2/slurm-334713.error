@@ -1,0 +1,2 @@
+BLAST options error: File GCF_000222465.1_Adig_1.1_protein.faa.gz does not exist
+Command line argument error: Argument "query". File is not accessible:  `GCF_000222465.1_Adig_1.1_protein.faa.gz'

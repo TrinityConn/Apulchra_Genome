@@ -1,0 +1,12 @@
+
+
+Building a new DB, current time: 08/16/2024 11:57:06
+New DB name:   /glfs/brick01/gv0/putnamlab/tconn/repeats/database/GCF_000222465.1_Adig_1.1_protein.faa
+New DB title:  GCF_000222465.1_Adig_1.1_protein.faa
+Sequence type: Protein
+Deleted existing Protein BLAST database named /glfs/brick01/gv0/putnamlab/tconn/repeats/database/GCF_000222465.1_Adig_1.1_protein.faa
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 33878 sequences in 1.36957 seconds.
+
+

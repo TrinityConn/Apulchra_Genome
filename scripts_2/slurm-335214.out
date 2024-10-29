@@ -1,0 +1,725 @@
+Transaction
+
+  Prefix: /home/trinity.conn/.conda/envs/funannotate
+
+  Updating specs:
+
+   - funannotate
+
+
+  Package                                      Version  Build                  Channel           Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                                  0.1  conda_forge            conda-forge     Cached
+  + python_abi                                     3.9  5_cp39                 conda-forge     Cached
+  + libboost-headers                            1.85.0  ha770c72_2             conda-forge     Cached
+  + ca-certificates                           2024.7.4  hbcca054_0             conda-forge     Cached
+  + libgcc-devel_linux-64                       10.4.0  hd38fd1e_19            conda-forge     Cached
+  + libstdcxx-devel_linux-64                    10.4.0  hd38fd1e_19            conda-forge     Cached
+  + ld_impl_linux-64                              2.39  hcc3a1bd_1             conda-forge     Cached
+  + pandoc                                         3.3  ha770c72_0             conda-forge     Cached
+  + libgomp                                     14.1.0  h77fa898_0             conda-forge     Cached
+  + _openmp_mutex                                  4.5  2_gnu                  conda-forge     Cached
+  + libgcc-ng                                   14.1.0  h77fa898_0             conda-forge     Cached
+  + libntlm                                        1.4  h7f98852_1002          conda-forge     Cached
+  + pthread-stubs                                  0.4  h36c2ea0_1001          conda-forge     Cached
+  + xorg-xf86vidmodeproto                        2.3.1  h7f98852_1002          conda-forge     Cached
+  + sed                                            4.8  he412f7d_0             conda-forge     Cached
+  + fribidi                                     1.0.10  h36c2ea0_0             conda-forge     Cached
+  + libunistring                                0.9.10  h7f98852_0             conda-forge     Cached
+  + xorg-renderproto                            0.11.1  h7f98852_1002          conda-forge     Cached
+  + xorg-xproto                                 7.0.31  h7f98852_1007          conda-forge     Cached
+  + xorg-kbproto                                 1.0.7  h7f98852_1002          conda-forge     Cached
+  + xorg-recordproto                            1.14.2  h7f98852_1002          conda-forge     Cached
+  + xorg-inputproto                              2.3.2  h7f98852_1002          conda-forge     Cached
+  + xorg-libxdmcp                                1.1.3  h7f98852_0             conda-forge     Cached
+  + c-ares                                      1.32.3  h4bc722e_0             conda-forge     Cached
+  + libev                                         4.33  hd590300_2             conda-forge     Cached
+  + yaml                                         0.2.5  h7f98852_2             conda-forge     Cached
+  + make                                           4.3  hd18ef5c_1             conda-forge     Cached
+  + metis                                        5.1.0  h59595ed_1007          conda-forge     Cached
+  + xorg-xextproto                               7.3.0  h0b41bf4_1003          conda-forge     Cached
+  + attr                                         2.5.1  h166bdaf_1             conda-forge     Cached
+  + libgettextpo                                0.22.5  he02047a_3             conda-forge     Cached
+  + gettext-tools                               0.22.5  he02047a_3             conda-forge     Cached
+  + libopus                                      1.3.1  h7f98852_1             conda-forge     Cached
+  + libogg                                       1.3.5  h4ab18f5_0             conda-forge     Cached
+  + lame                                         3.100  h166bdaf_1003          conda-forge     Cached
+  + alsa-lib                                    1.2.11  hd590300_1             conda-forge     Cached
+  + xorg-libxau                                 1.0.11  hd590300_0             conda-forge     Cached
+  + oniguruma                                    6.9.9  hd590300_0             conda-forge     Cached
+  + lp_solve                                  5.5.2.11  hd590300_0             conda-forge     Cached
+  + libsanitizer                                10.4.0  h5246dfb_19            conda-forge     Cached
+  + libtasn1                                    4.19.0  h166bdaf_0             conda-forge     Cached
+  + giflib                                       5.2.2  hd590300_0             conda-forge     Cached
+  + libjpeg-turbo                                3.0.0  hd590300_1             conda-forge     Cached
+  + libiconv                                      1.17  hd590300_2             conda-forge     Cached
+  + libbrotlicommon                              1.1.0  hd590300_1             conda-forge     Cached
+  + nettle                                       3.9.1  h7ab15ed_0             conda-forge     Cached
+  + libdeflate                                    1.20  hd590300_0             conda-forge     Cached
+  + keyutils                                     1.6.1  h166bdaf_0             conda-forge     Cached
+  + xorg-libice                                  1.1.1  hd590300_0             conda-forge     Cached
+  + libwebp-base                                 1.4.0  hd590300_0             conda-forge     Cached
+  + libexpat                                     2.6.2  h59595ed_0             conda-forge     Cached
+  + xz                                           5.2.6  h166bdaf_0             conda-forge     Cached
+  + libffi                                       3.4.2  h7f98852_5             conda-forge     Cached
+  + blis                                         0.9.0  h4ab18f5_2             conda-forge     Cached
+  + bzip2                                        1.0.8  h4bc722e_7             conda-forge     Cached
+  + openssl                                      3.3.1  h4bc722e_2             conda-forge     Cached
+  + libzlib                                     1.2.13  h4ab18f5_6             conda-forge     Cached
+  + ncurses                                        6.5  h59595ed_0             conda-forge     Cached
+  + libstdcxx-ng                                14.1.0  hc0a3c3a_0             conda-forge     Cached
+  + libxcrypt                                   4.4.36  hd590300_1             conda-forge     Cached
+  + libgfortran5                                14.1.0  hc5f4f2c_0             conda-forge     Cached
+  + libuuid                                     2.38.1  h0b41bf4_0             conda-forge     Cached
+  + libnsl                                       2.0.1  hd590300_0             conda-forge     Cached
+  + xorg-fixesproto                                5.0  h7f98852_1002          conda-forge     Cached
+  + libcap                                        2.69  h0f662aa_0             conda-forge     Cached
+  + libgettextpo-devel                          0.22.5  he02047a_3             conda-forge     Cached
+  + libxcb                                        1.15  h0b41bf4_0             conda-forge     Cached
+  + jq                                           1.7.1  hd590300_0             conda-forge     Cached
+  + tar                                           1.34  hb2e2bae_1             conda-forge     Cached
+  + libidn11                                      1.34  h1cef754_0             conda-forge     Cached
+  + libbrotlidec                                 1.1.0  hd590300_1             conda-forge     Cached
+  + libbrotlienc                                 1.1.0  hd590300_1             conda-forge     Cached
+  + expat                                        2.6.2  h59595ed_0             conda-forge     Cached
+  + p11-kit                                     0.24.1  hc5aa10d_0             conda-forge     Cached
+  + libevent                                    2.1.12  hf998b51_1             conda-forge     Cached
+  + libopenssl-static                            3.3.1  h4bc722e_2             conda-forge     Cached
+  + libssh2                                     1.11.0  h0841786_0             conda-forge     Cached
+  + pcre2                                        10.43  hcad00b1_0             conda-forge     Cached
+  + tk                                          8.6.13  noxft_h4845f30_101     conda-forge     Cached
+  + zlib                                        1.2.13  h4ab18f5_6             conda-forge     Cached
+  + libpng                                      1.6.43  h2797004_0             conda-forge     Cached
+  + libsqlite                                   3.46.0  hde9e2c9_0             conda-forge     Cached
+  + pigz                                           2.8  h2797004_0             conda-forge     Cached
+  + libedit                               3.1.20191231  he28a2e2_2             conda-forge     Cached
+  + readline                                       8.2  h8228510_1             conda-forge     Cached
+  + libvorbis                                    1.3.7  h9c3ff4c_0             conda-forge     Cached
+  + libdb                                       6.2.32  h9c3ff4c_0             conda-forge     Cached
+  + nspr                                          4.35  h27087fc_0             conda-forge     Cached
+  + mysql-common                                 8.3.0  hf1915f5_4             conda-forge     Cached
+  + gmp                                          6.3.0  hac33072_2             conda-forge     Cached
+  + graphite2                                   1.3.13  h59595ed_1003          conda-forge     Cached
+  + libnghttp2                                  1.58.0  h47da74e_1             conda-forge     Cached
+  + libasprintf                                 0.22.5  he8f35ee_3             conda-forge     Cached
+  + mpg123                                      1.32.6  h59595ed_0             conda-forge     Cached
+  + lz4-c                                        1.9.4  hcb278e6_0             conda-forge     Cached
+  + pixman                                      0.43.2  h59595ed_0             conda-forge     Cached
+  + pcre                                          8.45  h9c3ff4c_0             conda-forge     Cached
+  + qhull                                       2020.2  h434a139_5             conda-forge     Cached
+  + lerc                                         4.0.0  h27087fc_0             conda-forge     Cached
+  + icu                                           73.2  h59595ed_0             conda-forge     Cached
+  + zstd                                         1.5.6  ha6fb4c9_0             conda-forge     Cached
+  + mysql-connector-c                           6.1.11  h659d440_1008          conda-forge     Cached
+  + libjemalloc                                  5.3.0  hcb278e6_0             conda-forge     Cached
+  + perl                                        5.32.1  7_hd590300_perl5       conda-forge     Cached
+  + libgfortran-ng                              14.1.0  h69a702a_0             conda-forge     Cached
+  + xorg-libsm                                   1.2.4  h7391055_0             conda-forge     Cached
+  + xcb-util-wm                                  0.4.1  h8ee46fc_1             conda-forge     Cached
+  + xcb-util-keysyms                             0.4.0  h8ee46fc_1             conda-forge     Cached
+  + xcb-util                                     0.4.0  hd590300_1             conda-forge     Cached
+  + xcb-util-renderutil                          0.3.9  hd590300_1             conda-forge     Cached
+  + xorg-libx11                                  1.8.9  h8ee46fc_0             conda-forge     Cached
+  + brotli-bin                                   1.1.0  hd590300_1             conda-forge     Cached
+  + libglib                                     2.80.2  hf974151_0             conda-forge     Cached
+  + tktable                                       2.10  h8bc8fbc_6             conda-forge     Cached
+  + bwidget                                     1.9.14  ha770c72_1             conda-forge     Cached
+  + freetype                                    2.12.1  h267a509_2             conda-forge     Cached
+  + krb5                                        1.21.3  h659f571_0             conda-forge     Cached
+  + lua                                          5.4.6  h2973eb6_1             conda-forge     Cached
+  + sqlite                                      3.46.0  h6d4b2fc_0             conda-forge     Cached
+  + nss                                          3.100  hca3bf56_0             conda-forge     Cached
+  + glpk                                           5.0  h445213a_0             conda-forge     Cached
+  + mpfr                                         4.2.1  h38ae2d0_2             conda-forge     Cached
+  + libasprintf-devel                           0.22.5  he8f35ee_3             conda-forge     Cached
+  + libxml2                                     2.12.7  hc051c1a_1             conda-forge     Cached
+  + mysql-libs                                   8.3.0  hca2cd23_4             conda-forge     Cached
+  + libtiff                                      4.6.0  h1dd3fc0_3             conda-forge     Cached
+  + libboost                                    1.85.0  hba137d9_2             conda-forge     Cached
+  + perl-data-dumper                             2.183  pl5321hd590300_0       conda-forge     Cached
+  + perl-b-cow                                   0.007  pl5321hd590300_0       conda-forge     Cached
+  + perl-test-nowarnings                          1.06  pl5321ha770c72_0       conda-forge     Cached
+  + perl-compress-raw-bzip2                      2.201  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-compress-raw-zlib                       2.202  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-mime-base64                              3.16  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-digest-md5                               2.58  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-xml-parser                            2.44_01  pl5321hc3e0081_1003    conda-forge     Cached
+  + perl-try-tiny                                 0.31  pl5321ha770c72_0       conda-forge     Cached
+  + perl-test-warnings                           0.031  pl5321ha770c72_0       conda-forge     Cached
+  + perl-scalar-list-utils                        1.63  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-dbi                                     1.643  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-role-tiny                            2.002004  pl5321ha770c72_0       conda-forge     Cached
+  + perl-devel-stacktrace                         2.04  pl5321ha770c72_0       conda-forge     Cached
+  + perl-class-data-inheritable                   0.09  pl5321ha770c72_0       conda-forge     Cached
+  + perl-inc-latest                              0.500  pl5321ha770c72_0       conda-forge     Cached
+  + perl-storable                                 3.15  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-db_file                                 1.858  pl5321h166bdaf_0       conda-forge     Cached
+  + hdf5                                        1.10.5  nompi_h5b725eb_1114    conda-forge     Cached
+  + libopenblas                                 0.3.27  pthreads_hac2b453_1    conda-forge     Cached
+  + xcb-util-image                               0.4.0  h8ee46fc_1             conda-forge     Cached
+  + xkeyboard-config                              2.42  h4ab18f5_0             conda-forge     Cached
+  + xorg-libxfixes                               5.0.3  h7f98852_1004          conda-forge     Cached
+  + xorg-libxext                                 1.3.4  h0b41bf4_2             conda-forge     Cached
+  + xorg-libxt                                   1.3.0  hd590300_1             conda-forge     Cached
+  + xorg-libxrender                             0.9.11  hd590300_0             conda-forge     Cached
+  + brotli                                       1.1.0  hd590300_1             conda-forge     Cached
+  + atk-1.0                                     2.38.0  h04ea711_2             conda-forge     Cached
+  + dbus                                        1.13.6  h5008d03_3             conda-forge     Cached
+  + gts                                          0.7.6  h977cf35_4             conda-forge     Cached
+  + glib-tools                                  2.80.2  hb6ce0ca_0             conda-forge     Cached
+  + fontconfig                                  2.14.2  h14ed4e7_0             conda-forge     Cached
+  + libpq                                         16.4  h482b261_0             conda-forge     Cached
+  + libcups                                      2.3.3  h4637d8d_4             conda-forge     Cached
+  + libcurl                                      8.8.0  hca28451_1             conda-forge     Cached
+  + cyrus-sasl                                  2.1.27  h54b06d7_7             conda-forge     Cached
+  + gettext                                     0.22.5  he02047a_3             conda-forge     Cached
+  + libllvm15                                   15.0.7  hb3ce162_4             conda-forge     Cached
+  + libllvm18                                   18.1.7  hb77312f_0             conda-forge     Cached
+  + libhwloc                                    2.11.1  default_hecaa2ac_1000  conda-forge     Cached
+  + libxslt                                     1.1.39  h76b75d6_0             conda-forge     Cached
+  + openjpeg                                     2.5.2  h488ebb8_0             conda-forge     Cached
+  + libwebp                                      1.4.0  h2c329e2_0             conda-forge     Cached
+  + lcms2                                         2.16  hb7c19ff_0             conda-forge     Cached
+  + gdk-pixbuf                                 2.42.12  hb9ae30d_0             conda-forge     Cached
+  + libboost-devel                              1.85.0  h00ab1b0_2             conda-forge     Cached
+  + perl-clone                                    0.46  pl5321h166bdaf_0       conda-forge     Cached
+  + perl-net-ssleay                               1.92  pl5321hf14f497_1       conda-forge     Cached
+  + perl-test-fatal                              0.016  pl5321ha770c72_0       conda-forge     Cached
+  + perl-exception-class                          1.45  pl5321ha770c72_0       conda-forge     Cached
+  + perl-module-build                           0.4234  pl5321ha770c72_0       conda-forge     Cached
+  + libblas                                      3.9.0  23_linux64_openblas    conda-forge     Cached
+  + libxkbcommon                                 1.7.0  h662e7e4_0             conda-forge     Cached
+  + xorg-libxi                                  1.7.10  h4bc722e_1             conda-forge     Cached
+  + curl                                         8.8.0  he654da7_1             conda-forge     Cached
+  + openldap                                     2.6.8  hedd0468_0             conda-forge     Cached
+  + gawk                                         5.3.0  ha916aea_0             conda-forge     Cached
+  + libgpg-error                                  1.50  h4f305b6_0             conda-forge     Cached
+  + libflac                                      1.4.3  h59595ed_0             conda-forge     Cached
+  + libidn2                                      2.3.7  hd590300_0             conda-forge     Cached
+  + libclang-cpp15                              15.0.7  default_h127d8a8_5     conda-forge     Cached
+  + libclang13                                  18.1.7  default_h087397f_0     conda-forge     Cached
+  + tbb                                      2021.12.0  h434a139_3             conda-forge     Cached
+  + boost-cpp                                   1.85.0  h44aadfe_2             conda-forge     Cached
+  + perl-sub-quote                            2.006006  pl5321ha770c72_0       conda-forge     Cached
+  + perl-class-method-modifiers                   2.13  pl5321ha770c72_0       conda-forge     Cached
+  + libcblas                                     3.9.0  23_linux64_openblas    conda-forge     Cached
+  + liblapack                                    3.9.0  23_linux64_openblas    conda-forge     Cached
+  + xorg-libxtst                                 1.2.5  h4bc722e_0             conda-forge     Cached
+  + mafft                                        7.526  h4bc722e_0             conda-forge     Cached
+  + libgcrypt                                   1.11.0  h4ab18f5_1             conda-forge     Cached
+  + libsndfile                                   1.2.2  hc60ed4a_1             conda-forge     Cached
+  + wget                                        1.21.4  hda4d442_0             conda-forge     Cached
+  + gnutls                                       3.7.9  hb077bed_0             conda-forge     Cached
+  + perl-moo                                  2.005004  pl5321ha770c72_0       conda-forge     Cached
+  + gsl                                            2.7  he838d99_0             conda-forge     Cached
+  + suitesparse                                 5.10.1  h5a4f163_3             conda-forge     Cached
+  + libsystemd0                                    255  h3516f8a_1             conda-forge     Cached
+  + lighttpd                                    1.4.73  lua54he6d00d0_3        conda-forge     Cached
+  + pulseaudio-client                             17.0  hb77b528_0             conda-forge     Cached
+  + tzdata                                       2024a  h0c530f3_0             conda-forge     Cached
+  + _sysroot_linux-64_curr_repodata_hack             3  h69a702a_16            conda-forge     Cached
+  + font-ttf-dejavu-sans-mono                     2.37  hab24e00_0             conda-forge     Cached
+  + font-ttf-inconsolata                         3.000  h77eed37_0             conda-forge     Cached
+  + font-ttf-source-code-pro                     2.038  h77eed37_0             conda-forge     Cached
+  + font-ttf-ubuntu                               0.83  h77eed37_2             conda-forge     Cached
+  + _r-mutex                                     1.0.1  anacondar_1            conda-forge     Cached
+  + perl-lib                                      0.63  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-exporter-tiny                        1.002002  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-base                                     2.23  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-email-date-format                       1.006  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-file-which                               1.24  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-app-cpanminus                          1.7047  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-common-sense                             3.75  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-test-harness                             3.44  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-extutils-makemaker                       7.70  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-parent                                  0.241  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-exporter                                 5.74  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-constant                                 1.33  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-text-soundex                             3.05  pl5321hd8ed1ab_1001    conda-forge     Cached
+  + perl-clone-choose                            0.010  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-io-socket-ssl                           2.075  pl5321hd8ed1ab_0       conda-forge     Cached
+  + kernel-headers_linux-64                     3.10.0  h4a8ded7_16            conda-forge     Cached
+  + fonts-conda-forge                                1  0                      conda-forge     Cached
+  + perl-file-path                                2.18  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-carp                                     1.50  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-hash-merge                              0.302  pl5321hd8ed1ab_0       conda-forge     Cached
+  + sysroot_linux-64                              2.17  h4a8ded7_16            conda-forge     Cached
+  + fonts-conda-ecosystem                            1  0                      conda-forge     Cached
+  + perl-business-isbn-data               20210112.006  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-file-temp                              0.2304  pl5321hd8ed1ab_0       conda-forge     Cached
+  + perl-business-isbn                           3.007  pl5321hd8ed1ab_0       conda-forge     Cached
+  + fasta3                                      36.3.8  hec16e2b_7             bioconda        Cached
+  + ncbi-vdb                                     3.1.1  h4ac6f70_1             bioconda        Cached
+  + kmer-jellyfish                               2.3.1  h4ac6f70_2             bioconda        Cached
+  + trimal                                       1.5.0  h4ac6f70_0             bioconda        Cached
+  + tantan                                          50  h43eeafb_0             bioconda        Cached
+  + hmmer                                          3.4  hdbdd923_1             bioconda        Cached
+  + bedtools                                    2.31.1  hf5e1c6e_2             bioconda        Cached
+  + bamtools                                     2.5.2  hdcf5f25_5             bioconda        Cached
+  + k8                                           0.2.5  hdcf5f25_4             bioconda        Cached
+  + slclust                                   02022010  hdcf5f25_4             bioconda        Cached
+  + cdbtools                                      0.99  hdcf5f25_10            bioconda        Cached
+  + pblat                                        2.5.1  h84c94e8_2             bioconda        Cached
+  + tbl2asn                                       25.7  h9ee0642_1             bioconda        Cached
+  + rpsbproc                                     0.5.0  h6a68c12_0             bioconda        Cached
+  + ucsc-twobitinfo                                455  h2a80c09_1             bioconda        Cached
+  + ucsc-fatotwobit                                455  h2a80c09_1             bioconda        Cached
+  + ucsc-pslcdnafilter                             445  h2a80c09_1             bioconda        Cached
+  + ucsc-blat                                      468  he8037a5_0             bioconda        Cached
+  + perl-list-moreutils-xs                       0.430  pl5321h031d066_2       bioconda        Cached
+  + perl-url-encode                               0.03  pl5321h9ee0642_0       bioconda        Cached
+  + perl-socket                                  2.027  pl5321h031d066_4       bioconda        Cached
+  + perl-db-file                                 1.855  pl5321h779adbc_1       bioconda        Cached
+  + infernal                                     1.1.5  pl5321h031d066_2       bioconda        Cached
+  + snap                                    2013_11_29  h031d066_6             bioconda        Cached
+  + perl-scalar-util-numeric                      0.40  pl5321h031d066_5       bioconda        Cached
+  + glimmerhmm                                   3.0.4  pl5321hdbdd923_8       bioconda        Cached
+  + perl-dbd-sqlite                               1.72  pl5321h031d066_1       bioconda        Cached
+  + kallisto                                    0.46.1  h4f7b962_0             bioconda        Cached
+  + htslib                                        1.20  h5efdd21_2             bioconda        Cached
+  + salmon                                      1.10.3  h6dccd9a_2             bioconda        Cached
+  + entrez-direct                                 22.4  he881be0_0             bioconda        Cached
+  + perl-time-hires                             1.9764  pl5321h031d066_4       bioconda        Cached
+  + minimap2                                      2.28  he4a0461_1             bioconda        Cached
+  + trnascan-se                                 2.0.12  pl5321h031d066_0       bioconda        Cached
+  + samtools                                      1.20  h50ea8bc_1             bioconda        Cached
+  + perl-io-zlib                                  1.14  pl5321hdfd78af_0       bioconda        Cached
+  + perl-io-html                                 1.004  pl5321hdfd78af_0       bioconda        Cached
+  + perl-html-tagset                              3.20  pl5321hdfd78af_4       bioconda        Cached
+  + perl-mozilla-ca                           20211001  pl5321hdfd78af_0       bioconda        Cached
+  + perl-file-spec                             3.48_01  pl5321hdfd78af_2       bioconda        Cached
+  + perl-getopt-long                              2.58  pl5321hdfd78af_0       bioconda        Cached
+  + perl-mime-types                               2.24  pl5321hdfd78af_0       bioconda        Cached
+  + perl-digest-hmac                              1.04  pl5321hdfd78af_0       bioconda        Cached
+  + perl-class-inspector                          1.36  pl5321hdfd78af_0       bioconda        Cached
+  + perl-yaml                                     1.30  pl5321hdfd78af_0       bioconda        Cached
+  + perl-timedate                                 2.33  pl5321hdfd78af_2       bioconda        Cached
+  + perl-convert-binhex                          1.125  pl5321hdfd78af_2       bioconda        Cached
+  + perl-task-weaken                              1.06  pl5321hdfd78af_1       bioconda        Cached
+  + perl-io-sessiondata                           1.03  pl5321hdfd78af_2       bioconda        Cached
+  + perl-math-utils                               1.14  pl5321hdfd78af_0       bioconda        Cached
+  + perl-test-pod                                 1.52  pl5321hdfd78af_1       bioconda        Cached
+  + perl-object-insideout                         4.05  pl5321hdfd78af_1       bioconda        Cached
+  + perl-types-serialiser                         1.01  pl5321hdfd78af_0       bioconda        Cached
+  + perl-local-lib                            2.000029  pl5321hdfd78af_0       bioconda        Cached
+  + perl-file-util                            4.201720  pl5321hdfd78af_0       bioconda        Cached
+  + perl-time-local                               1.35  pl5321hdfd78af_0       bioconda        Cached
+  + perl-lwp-mediatypes                           6.04  pl5321hdfd78af_1       bioconda        Cached
+  + perl-parallel-forkmanager                     2.02  pl5321hdfd78af_1       bioconda        Cached
+  + perl-list-moreutils                          0.430  pl5321hdfd78af_0       bioconda        Cached
+  + perl-test-requiresinternet                    0.05  pl5321hdfd78af_1       bioconda        Cached
+  + perl-mce                                     1.897  pl5321hdfd78af_0       bioconda        Cached
+  + perl-ntlm                                     1.09  pl5321hdfd78af_5       bioconda        Cached
+  + perl-mailtools                                2.21  pl5321hdfd78af_1       bioconda        Cached
+  + perl-logger-simple                             2.0  pl5321hdfd78af_1       bioconda        Cached
+  + perl-http-date                                6.06  pl5321hdfd78af_0       bioconda        Cached
+  + perl-mime-tools                              5.508  pl5321hdfd78af_2       bioconda        Cached
+  + perl-mime-lite                               3.030  pl5321hdfd78af_2       bioconda        Cached
+  + perl-file-listing                             6.16  pl5321hdfd78af_0       bioconda        Cached
+  + python                                      3.9.19  h0755675_0_cpython     conda-forge     Cached
+  + perl-encode                                   3.21  pl5321hd590300_0       conda-forge     Cached
+  + perl-pathtools                                3.75  pl5321h166bdaf_0       conda-forge     Cached
+  + binutils_impl_linux-64                        2.39  he00db2b_1             conda-forge     Cached
+  + libgd                                        2.3.3  h119a65a_9             conda-forge     Cached
+  + cairo                                       1.18.0  h3faef2a_0             conda-forge     Cached
+  + perl-uri                                      5.17  pl5321ha770c72_0       conda-forge     Cached
+  + gcc_impl_linux-64                           10.4.0  h5231bdf_19            conda-forge     Cached
+  + binutils_linux-64                             2.39  h5fc0e48_13            conda-forge     Cached
+  + harfbuzz                                     8.5.0  hfac3d4d_0             conda-forge     Cached
+  + gfortran_impl_linux-64                      10.4.0  h7d168d2_19            conda-forge     Cached
+  + gxx_impl_linux-64                           10.4.0  h5231bdf_19            conda-forge     Cached
+  + gcc_linux-64                                10.4.0  h9215b83_13            conda-forge     Cached
+  + openjdk                                     22.0.1  hb622114_0             conda-forge     Cached
+  + pango                                       1.54.0  h84a9a3c_0             conda-forge     Cached
+  + librsvg                                     2.58.1  hadf69e7_0             conda-forge     Cached
+  + gtk2                                       2.24.33  h280cfa0_4             conda-forge     Cached
+  + r-base                                       4.3.3  hf0d99cb_1             conda-forge     Cached
+  + graphviz                                    11.0.0  hc68bbd7_0             conda-forge     Cached
+  + r-truncnorm                                  1.0_9  r43hdb488b9_2          conda-forge     Cached
+  + r-sys                                        3.4.2  r43hb1dbf0f_2          conda-forge     Cached
+  + r-bit                                        4.0.5  r43hb1dbf0f_2          conda-forge     Cached
+  + r-fastmap                                    1.2.0  r43ha18555a_1          conda-forge     Cached
+  + r-quadprog                                   1.5_8  r43hc2011d3_6          conda-forge     Cached
+  + r-fastmatch                                  1.1_4  r43hb1dbf0f_1          conda-forge     Cached
+  + r-ps                                         1.7.7  r43hdb488b9_0          conda-forge     Cached
+  + r-base64enc                                  0.1_3  r43hb1dbf0f_1007       conda-forge     Cached
+  + r-colorspace                                 2.1_1  r43hdb488b9_0          conda-forge     Cached
+  + r-farver                                     2.1.2  r43ha18555a_1          conda-forge     Cached
+  + r-rjson                                     0.2.21  r43ha18555a_4          conda-forge     Cached
+  + r-mvtnorm                                    1.2_6  r43h61c59f8_0          conda-forge     Cached
+  + r-bdsmatrix                                  1.3_7  r43hb1dbf0f_1          conda-forge     Cached
+  + r-backports                                  1.5.0  r43hb1dbf0f_1          conda-forge     Cached
+  + r-data.table                                1.15.2  r43h029312a_0          conda-forge     Cached
+  + r-mass                                  7.3_60.0.1  r43hb1dbf0f_1          conda-forge     Cached
+  + r-isoband                                    0.2.7  r43ha18555a_3          conda-forge     Cached
+  + r-uuid                                       1.2_1  r43hdb488b9_0          conda-forge     Cached
+  + r-kernsmooth                               2.23_24  r43hc2011d3_1          conda-forge     Cached
+  + r-gtools                                     3.9.5  r43hb1dbf0f_1          conda-forge     Cached
+  + r-mime                                        0.12  r43hb1dbf0f_3          conda-forge     Cached
+  + r-xfun                                        0.47  r43h0d4f4ea_0          conda-forge     Cached
+  + r-yaml                                      2.3.10  r43hdb488b9_0          conda-forge     Cached
+  + r-utf8                                       1.2.4  r43hb1dbf0f_1          conda-forge     Cached
+  + r-fansi                                      1.0.6  r43hb1dbf0f_1          conda-forge     Cached
+  + r-fs                                         1.6.4  r43ha18555a_1          conda-forge     Cached
+  + r-stringi                                    1.8.4  r43ha8ce623_2          conda-forge     Cached
+  + r-glue                                       1.7.0  r43hb1dbf0f_1          conda-forge     Cached
+  + r-jsonlite                                   1.8.8  r43hb1dbf0f_1          conda-forge     Cached
+  + r-cli                                        3.6.3  r43h0d4f4ea_1          conda-forge     Cached
+  + r-rlang                                      1.1.4  r43ha18555a_1          conda-forge     Cached
+  + r-magrittr                                   2.0.3  r43hb1dbf0f_3          conda-forge     Cached
+  + r-rcpp                                      1.0.13  r43h0d4f4ea_0          conda-forge     Cached
+  + r-bitops                                     1.0_8  r43hdb488b9_0          conda-forge     Cached
+  + r-filelock                                   1.0.3  r43hb1dbf0f_1          conda-forge     Cached
+  + r-curl                                       5.2.1  r43h6b349a7_1          conda-forge     Cached
+  + r-xml                                    3.99_0.17  r43he716329_1          conda-forge     Cached
+  + r-rappdirs                                   0.3.3  r43hb1dbf0f_3          conda-forge     Cached
+  + r-digest                                    0.6.37  r43h0d4f4ea_0          conda-forge     Cached
+  + r-amap                                      0.8_19  r43ha936806_2          conda-forge     Cached
+  + r-statmod                                    1.5.0  r43ha36c22a_2          conda-forge     Cached
+  + r-lattice                                   0.22_6  r43hb1dbf0f_1          conda-forge     Cached
+  + r-biasedurn                                 2.0.12  r43h0d4f4ea_1          conda-forge     Cached
+  + r-png                                        0.1_8  r43h21f035c_2          conda-forge     Cached
+  + r-matrixstats                                1.3.0  r43hb1dbf0f_1          conda-forge     Cached
+  + r-sm                                       2.2_6.0  r43hc4980d5_1          conda-forge     Cached
+  + r-fastcluster                                1.2.6  r43hac33072_1          conda-forge     Cached
+  + r-cluster                                    2.1.6  r43hbcb9c34_1          conda-forge     Cached
+  + r-askpass                                    1.2.0  r43hb1dbf0f_1          conda-forge     Cached
+  + r-bit64                                      4.0.5  r43hb1dbf0f_3          conda-forge     Cached
+  + r-cachem                                     1.1.0  r43hb1dbf0f_1          conda-forge     Cached
+  + r-ellipsis                                   0.3.2  r43hb1dbf0f_3          conda-forge     Cached
+  + r-xml2                                       1.3.6  r43h8194278_2          conda-forge     Cached
+  + r-plyr                                       1.8.9  r43ha18555a_1          conda-forge     Cached
+  + r-rcpparmadillo                           14.0.0_1  r43hb424bfc_2          conda-forge     Cached
+  + r-catools                                   1.18.2  r43ha18555a_3          conda-forge     Cached
+  + r-rcurl                                  1.98_1.16  r43h6b349a7_0          conda-forge     Cached
+  + r-nlme                                     3.1_165  r43hbcb9c34_1          conda-forge     Cached
+  + r-zoo                                       1.8_12  r43hb1dbf0f_2          conda-forge     Cached
+  + r-locfit                                   1.5_9.9  r43h57805ef_0          conda-forge     Cached
+  + r-matrix                                     1.6_5  r43he966344_1          conda-forge     Cached
+  + r-openssl                                    2.2.1  r43h5bbf899_0          conda-forge     Cached
+  + r-htmltools                                0.5.8.1  r43ha18555a_1          conda-forge     Cached
+  + r-ape                                          5.8  r43hb424bfc_1          conda-forge     Cached
+  + r-irlba                                    2.3.5.1  r43h0d28552_3          conda-forge     Cached
+  + r-rcppeigen                              0.3.4.0.1  r43hb424bfc_0          conda-forge     Cached
+  + r-survival                                   3.7_0  r43hdb488b9_1          conda-forge     Cached
+  + r-mgcv                                       1.9_1  r43h0d28552_1          conda-forge     Cached
+  + r-mixsqp                                    0.3_54  r43hb424bfc_1          conda-forge     Cached
+  + r-rcppnumerical                              0.6_0  r43h0d4f4ea_1          conda-forge     Cached
+  + perl-json-xs                                  4.03  pl5321h4ac6f70_3       bioconda        Cached
+  + gmap                                    2024.08.14  pl5321h9d449c0_0       bioconda        Cached
+  + perl-io-compress                             2.201  pl5321hdbdd923_2       bioconda        Cached
+  + evidencemodeler                              2.1.0  hdbdd923_2             bioconda        Cached
+  + perl-devel-checklib                           1.16  pl5321hec16e2b_0       bioconda        Cached
+  + bioconductor-zlibbioc                       1.48.0  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-limma                          3.58.1  r43ha9d7317_1          bioconda        Cached
+  + perl-dbd-mysql                               4.050  pl5321h4ac6f70_1       bioconda        Cached
+  + bioconductor-rhtslib                         2.4.0  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-edger                          4.0.16  r43hf17093f_1          bioconda        Cached
+  + wheel                                       0.44.0  pyhd8ed1ab_0           conda-forge     Cached
+  + setuptools                                  72.2.0  pyhd8ed1ab_0           conda-forge     Cached
+  + r-invgamma                                     1.1  r43hc72bb7e_4          conda-forge     Cached
+  + r-squarem                                   2021.1  r43hc72bb7e_3          conda-forge     Cached
+  + r-etrunct                                      0.1  r43hc72bb7e_1006       conda-forge     Cached
+  + r-plogr                                      0.2.0  r43hc72bb7e_1006       conda-forge     Cached
+  + r-formatr                                     1.14  r43hc72bb7e_2          conda-forge     Cached
+  + r-viridislite                                0.4.2  r43hc72bb7e_2          conda-forge     Cached
+  + r-labeling                                   0.4.3  r43hc72bb7e_1          conda-forge     Cached
+  + r-findpython                                 1.0.8  r43hc72bb7e_2          conda-forge     Cached
+  + r-numderiv                              2016.8_1.1  r43hc72bb7e_6          conda-forge     Cached
+  + r-generics                                   0.1.3  r43hc72bb7e_3          conda-forge     Cached
+  + r-rematch                                    2.0.0  r43hc72bb7e_1          conda-forge     Cached
+  + r-futile.options                             1.0.1  r43hc72bb7e_1005       conda-forge     Cached
+  + r-pkgconfig                                  2.0.3  r43hc72bb7e_4          conda-forge     Cached
+  + r-evaluate                                  0.24.0  r43hc72bb7e_1          conda-forge     Cached
+  + r-assertthat                                 0.2.1  r43hc72bb7e_5          conda-forge     Cached
+  + r-r6                                         2.5.1  r43hc72bb7e_3          conda-forge     Cached
+  + r-clipr                                      0.8.0  r43hc72bb7e_3          conda-forge     Cached
+  + r-withr                                      3.0.1  r43hc72bb7e_0          conda-forge     Cached
+  + r-rstudioapi                                0.16.0  r43hc72bb7e_1          conda-forge     Cached
+  + r-cpp11                                      0.4.7  r43hc72bb7e_1          conda-forge     Cached
+  + r-snow                                       0.4_4  r43hc72bb7e_3          conda-forge     Cached
+  + r-codetools                                 0.2_20  r43hc72bb7e_1          conda-forge     Cached
+  + r-bh                                      1.84.0_0  r43hc72bb7e_1          conda-forge     Cached
+  + r-crayon                                     1.5.3  r43hc72bb7e_1          conda-forge     Cached
+  + r-abind                                      1.4_5  r43hc72bb7e_1006       conda-forge     Cached
+  + r-xtable                                     1.8_4  r43hc72bb7e_6          conda-forge     Cached
+  + r-hwriter                                  1.3.2.1  r43hc72bb7e_3          conda-forge     Cached
+  + r-rcolorbrewer                               1.1_3  r43h785f33e_3          conda-forge     Cached
+  + r-dbi                                        1.2.3  r43hc72bb7e_1          conda-forge     Cached
+  + r-munsell                                    0.5.1  r43hc72bb7e_1          conda-forge     Cached
+  + r-tinytex                                     0.52  r43hc72bb7e_0          conda-forge     Cached
+  + r-highr                                       0.11  r43hc72bb7e_1          conda-forge     Cached
+  + r-lifecycle                                  1.0.4  r43hc72bb7e_1          conda-forge     Cached
+  + r-coda                                    0.19_4.1  r43hc72bb7e_1          conda-forge     Cached
+  + r-memoise                                    2.0.1  r43hc72bb7e_3          conda-forge     Cached
+  + r-gplots                                   3.1.3.1  r43hc72bb7e_1          conda-forge     Cached
+  + r-vioplot                                    0.5.0  r43hc72bb7e_0          conda-forge     Cached
+  + r-ids                                        1.0.1  r43hc72bb7e_4          conda-forge     Cached
+  + r-fontawesome                                0.5.2  r43hc72bb7e_1          conda-forge     Cached
+  + r-jquerylib                                  0.1.4  r43hc72bb7e_3          conda-forge     Cached
+  + pip                                           24.2  pyhd8ed1ab_0           conda-forge     Cached
+  + r-lambda.r                                   1.2.4  r43hc72bb7e_4          conda-forge     Cached
+  + r-bbmle                                   1.0.25.1  r43hc72bb7e_1          conda-forge     Cached
+  + r-prettyunits                                1.2.0  r43hc72bb7e_1          conda-forge     Cached
+  + r-httr                                       1.4.7  r43hc72bb7e_1          conda-forge     Cached
+  + r-knitr                                       1.48  r43hc72bb7e_0          conda-forge     Cached
+  + r-scales                                     1.3.0  r43hc72bb7e_1          conda-forge     Cached
+  + r-gtable                                     0.3.5  r43hc72bb7e_1          conda-forge     Cached
+  + r-conflicted                                 1.2.0  r43h785f33e_2          conda-forge     Cached
+  + hyperframe                                   6.0.1  pyhd8ed1ab_0           conda-forge     Cached
+  + hpack                                        4.0.0  pyh9f0ad1d_0           conda-forge     Cached
+  + pycparser                                     2.22  pyhd8ed1ab_0           conda-forge     Cached
+  + threadpoolctl                                3.5.0  pyhc1e730c_0           conda-forge     Cached
+  + joblib                                       1.4.2  pyhd8ed1ab_0           conda-forge     Cached
+  + tomli                                        2.0.1  pyhd8ed1ab_0           conda-forge     Cached
+  + ply                                           3.11  pyhd8ed1ab_2           conda-forge     Cached
+  + pysocks                                      1.7.1  pyha2e5f31_6           conda-forge     Cached
+  + zipp                                        3.20.0  pyhd8ed1ab_0           conda-forge     Cached
+  + mdurl                                        0.1.2  pyhd8ed1ab_0           conda-forge     Cached
+  + six                                         1.16.0  pyh6c4a22f_0           conda-forge     Cached
+  + charset-normalizer                           3.3.2  pyhd8ed1ab_0           conda-forge     Cached
+  + idna                                           3.7  pyhd8ed1ab_0           conda-forge     Cached
+  + typing_extensions                           4.12.2  pyha770c72_0           conda-forge     Cached
+  + pygments                                    2.18.0  pyhd8ed1ab_0           conda-forge     Cached
+  + tomlkit                                     0.13.2  pyha770c72_0           conda-forge     Cached
+  + toml                                        0.10.2  pyhd8ed1ab_0           conda-forge     Cached
+  + xmltodict                                   0.13.0  pyhd8ed1ab_0           conda-forge     Cached
+  + argcomplete                                  3.5.0  pyhd8ed1ab_0           conda-forge     Cached
+  + r-argparse                                   2.2.3  r43hc72bb7e_1          conda-forge     Cached
+  + munkres                                      1.1.4  pyh9f0ad1d_0           conda-forge     Cached
+  + cycler                                      0.12.1  pyhd8ed1ab_0           conda-forge     Cached
+  + certifi                                   2024.7.4  pyhd8ed1ab_0           conda-forge     Cached
+  + pyparsing                                    3.1.2  pyhd8ed1ab_0           conda-forge     Cached
+  + et_xmlfile                                   1.1.0  pyhd8ed1ab_0           conda-forge     Cached
+  + pytz                                        2024.1  pyhd8ed1ab_0           conda-forge     Cached
+  + python-tzdata                               2024.1  pyhd8ed1ab_0           conda-forge     Cached
+  + packaging                                     24.1  pyhd8ed1ab_0           conda-forge     Cached
+  + xlsxwriter                                   3.2.0  pyhd8ed1ab_0           conda-forge     Cached
+  + docopt                                       0.6.2  py_1                   conda-forge     Cached
+  + natsort                                      8.4.0  pyhd8ed1ab_0           conda-forge     Cached
+  + r-futile.logger                              1.4.3  r43hc72bb7e_1006       conda-forge     Cached
+  + r-emdbook                                   1.3.13  r43hc72bb7e_1          conda-forge     Cached
+  + r-gargle                                     1.5.2  r43h785f33e_1          conda-forge     Cached
+  + h2                                           4.1.0  pyhd8ed1ab_0           conda-forge     Cached
+  + importlib_resources                          6.4.3  pyhd8ed1ab_0           conda-forge     Cached
+  + markdown-it-py                               3.0.0  pyhd8ed1ab_0           conda-forge     Cached
+  + python-dateutil                              2.9.0  pyhd8ed1ab_0           conda-forge     Cached
+  + importlib-resources                          6.4.3  pyhd8ed1ab_0           conda-forge     Cached
+  + rich                                        13.7.1  pyhd8ed1ab_0           conda-forge     Cached
+  + ftpretty                                     0.4.0  pyhd8ed1ab_0           conda-forge     Cached
+  + perl-encode-locale                            1.05  pl5321hdfd78af_7       bioconda        Cached
+  + perl-net-http                                 6.22  pl5321hdfd78af_0       bioconda        Cached
+  + perl-www-robotrules                           6.02  pl5321hdfd78af_4       bioconda        Cached
+  + bioconductor-seqlogo                        1.68.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-biocgenerics                   0.48.1  r43hdfd78af_2          bioconda        Cached
+  + bioconductor-ctc                            1.76.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-matrixgenerics                 1.14.0  r43hdfd78af_3          bioconda        Cached
+  + perl-json                                     4.10  pl5321hdfd78af_1       bioconda        Cached
+  + perl-archive-tar                              2.40  pl5321hdfd78af_0       bioconda        Cached
+  + trimmomatic                                   0.39  hdfd78af_2             bioconda        Cached
+  + perl-http-message                             6.36  pl5321hdfd78af_0       bioconda        Cached
+  + perl-http-daemon                              6.16  pl5321hdfd78af_0       bioconda        Cached
+  + perl-http-cookies                             6.10  pl5321hdfd78af_0       bioconda        Cached
+  + perl-http-negotiate                           6.01  pl5321hdfd78af_4       bioconda        Cached
+  + r-ashr                                      2.2_63  r43h0d4f4ea_1          conda-forge     Cached
+  + r-sass                                       0.4.9  r43ha18555a_1          conda-forge     Cached
+  + r-processx                                   3.8.4  r43hb1dbf0f_1          conda-forge     Cached
+  + r-timechange                                 0.3.0  r43ha18555a_1          conda-forge     Cached
+  + r-tzdb                                       0.4.0  r43ha18555a_2          conda-forge     Cached
+  + r-systemfonts                                1.1.0  r43h38d38ca_1          conda-forge     Cached
+  + r-vctrs                                      0.6.5  r43h0d4f4ea_1          conda-forge     Cached
+  + brotli-python                                1.1.0  py39h3d6467e_1         conda-forge     Cached
+  + lxml                                         5.2.2  py39h8a3eb29_0         conda-forge     Cached
+  + pyyaml                                       6.0.2  py39hcd6043d_0         conda-forge     Cached
+  + unicodedata2                                15.1.0  py39hd1e30aa_0         conda-forge     Cached
+  + pillow                                      10.3.0  py39h90c7501_0         conda-forge     Cached
+  + kiwisolver                                   1.4.5  py39h7633fee_1         conda-forge     Cached
+  + glib                                        2.80.2  hf974151_0             conda-forge     Cached
+  + psutil                                       6.0.0  py39hd3abc70_0         conda-forge     Cached
+  + numpy                                       1.26.4  py39h474f0d3_0         conda-forge     Cached
+  + cffi                                        1.17.0  py39h49a4b6b_0         conda-forge     Cached
+  + pydot                                        3.0.1  py39hf3d152e_0         conda-forge     Cached
+  + openpyxl                                     3.1.5  py39hd1e30aa_0         conda-forge     Cached
+  + sip                                         6.7.12  py39h3d6467e_0         conda-forge     Cached
+  + r-lubridate                                  1.9.3  r43hdb488b9_1          conda-forge     Cached
+  + r-textshaping                                0.4.0  r43h024d615_0          conda-forge     Cached
+  + r-igraph                                     2.0.3  r43h510f1ce_1          conda-forge     Cached
+  + r-purrr                                      1.0.2  r43hdb488b9_1          conda-forge     Cached
+  + fonttools                                   4.53.1  py39hcd6043d_0         conda-forge     Cached
+  + gstreamer                                   1.24.4  haf2f30d_0             conda-forge     Cached
+  + contourpy                                    1.2.1  py39h7633fee_0         conda-forge     Cached
+  + biopython                                     1.79  py39hb9d737c_3         conda-forge     Cached
+  + scipy                                       1.13.1  py39haf93ffa_0         conda-forge     Cached
+  + pandas                                       2.2.2  py39hfc16268_1         conda-forge     Cached
+  + zstandard                                   0.23.0  py39h623c9ba_0         conda-forge     Cached
+  + pyqt5-sip                                  12.12.2  py39h3d6467e_5         conda-forge     Cached
+  + r-ragg                                       1.3.2  r43h6bbb899_1          conda-forge     Cached
+  + r-phangorn                                  2.11.1  r43h4387864_2          conda-forge     Cached
+  + gst-plugins-base                            1.24.4  h9ad1361_0             conda-forge     Cached
+  + matplotlib-base                              3.9.2  py39h0565ad7_0         conda-forge     Cached
+  + scikit-learn                                 1.5.1  py39hf7b0125_0         conda-forge     Cached
+  + qt-main                                     5.15.8  hc9dc06e_21            conda-forge     Cached
+  + pyqt                                        5.15.9  py39h52134e7_5         conda-forge     Cached
+  + pysam                                       0.22.1  py39h61809e1_2         bioconda        Cached
+  + bowtie2                                      2.5.4  h7071971_4             bioconda        Cached
+  + stringtie                                    2.2.3  h43eeafb_0             bioconda        Cached
+  + hisat2                                       2.2.1  hdbdd923_6             bioconda        Cached
+  + bioconductor-biocparallel                   1.36.0  r43hf17093f_2          bioconda        Cached
+  + bioconductor-s4vectors                      0.40.2  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-biobase                        2.62.0  r43ha9d7317_2          bioconda        Cached
+  + blast                                       2.16.0  hc155240_2             bioconda        Cached
+  + perl-html-parser                              3.81  pl5321h4ac6f70_1       bioconda        Cached
+  + exonerate                                    2.4.0  h09da616_8             bioconda        Cached
+  + codingquarry                                   2.0  py39h9e0f934_9         bioconda        Cached
+  + htseq                                        2.0.5  py39h91a4a08_2         bioconda        Cached
+  + r-restfulr                                  0.0.15  r43h56115f1_4          bioconda        Cached
+  + bioconductor-iranges                        2.36.0  r43ha9d7317_2          bioconda        Cached
+  + diamond                                      2.1.8  h43eeafb_0             bioconda        Cached
+  + perl-cgi                                      4.56  pl5321h031d066_1       bioconda        Cached
+  + bioconductor-xvector                        0.42.0  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-s4arrays                        1.2.0  r43ha9d7317_2          bioconda        Cached
+  + proteinortho                                 6.3.2  h70414c8_0             bioconda        Cached
+  + augustus                                     3.5.0  pl5321h95201ac_4       bioconda        Cached
+  + bioconductor-sparsearray                     1.2.2  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-delayedarray                   0.28.0  r43ha9d7317_2          bioconda        Cached
+  + r-bslib                                      0.8.0  r43hc72bb7e_0          conda-forge     Cached
+  + r-callr                                      3.7.6  r43hc72bb7e_1          conda-forge     Cached
+  + r-blob                                       1.2.4  r43hc72bb7e_2          conda-forge     Cached
+  + r-tidyselect                                 1.2.1  r43hc72bb7e_1          conda-forge     Cached
+  + r-pillar                                     1.9.0  r43hc72bb7e_2          conda-forge     Cached
+  + r-hms                                        1.1.3  r43hc72bb7e_2          conda-forge     Cached
+  + r-stringr                                    1.5.1  r43h785f33e_1          conda-forge     Cached
+  + yq                                           3.4.3  pyhd8ed1ab_0           conda-forge     Cached
+  + patsy                                        0.5.6  pyhd8ed1ab_0           conda-forge     Cached
+  + urllib3                                      2.2.2  pyhd8ed1ab_1           conda-forge     Cached
+  + seaborn-base                                0.13.2  pyhd8ed1ab_2           conda-forge     Cached
+  + ete3                                         3.1.3  pyhd8ed1ab_0           conda-forge     Cached
+  + r-rmarkdown                                   2.28  r43hc72bb7e_0          conda-forge     Cached
+  + r-progress                                   1.2.3  r43hc72bb7e_1          conda-forge     Cached
+  + r-selectr                                    0.4_2  r43hc72bb7e_4          conda-forge     Cached
+  + requests                                    2.32.3  pyhd8ed1ab_0           conda-forge     Cached
+  + r-reprex                                     2.1.1  r43hc72bb7e_1          conda-forge     Cached
+  + bioconductor-biocio                         1.12.0  r43hdfd78af_0          bioconda        Cached
+  + perl-libwww-perl                              6.67  pl5321hdfd78af_0       bioconda        Cached
+  + bioconductor-data-packages                20231203  hdfd78af_0             bioconda        Cached
+  + perl-lwp-protocol-https                       6.10  pl5321hdfd78af_0       bioconda        Cached
+  + bioconductor-genomeinfodbdata               1.2.11  r43hdfd78af_1          bioconda        Cached
+  + perl-soap-lite                                1.27  pl5321hdfd78af_0       bioconda        Cached
+  + bioconductor-genomeinfodb                   1.38.1  r43hdfd78af_1          bioconda        Cached
+  + r-rsqlite                                    2.3.7  r43h0d4f4ea_0          conda-forge     Cached
+  + r-tibble                                     3.2.1  r43hdb488b9_3          conda-forge     Cached
+  + r-reshape2                                   1.4.4  r43h0d4f4ea_4          conda-forge     Cached
+  + statsmodels                                 0.14.2  py39hd92a3bb_0         conda-forge     Cached
+  + r-vroom                                      1.6.5  r43h0d4f4ea_1          conda-forge     Cached
+  + r-dplyr                                      1.1.4  r43h0d4f4ea_1          conda-forge     Cached
+  + r-readr                                      2.1.5  r43h0d4f4ea_1          conda-forge     Cached
+  + r-tidyr                                      1.3.1  r43h0d4f4ea_1          conda-forge     Cached
+  + bioconductor-biostrings                     2.70.1  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-genomicranges                  1.54.1  r43ha9d7317_2          bioconda        Cached
+  + bioconductor-rsamtools                      2.18.0  r43hf17093f_2          bioconda        Cached
+  + r-rematch2                                   2.1.2  r43hc72bb7e_4          conda-forge     Cached
+  + r-cellranger                                 1.1.0  r43hc72bb7e_1007       conda-forge     Cached
+  + r-forcats                                    1.0.0  r43hc72bb7e_2          conda-forge     Cached
+  + r-rvest                                      1.0.4  r43hc72bb7e_1          conda-forge     Cached
+  + r-googledrive                                2.1.1  r43hc72bb7e_2          conda-forge     Cached
+  + r-ggplot2                                    3.5.1  r43hc72bb7e_1          conda-forge     Cached
+  + goatools                                    1.4.12  pyhd8ed1ab_0           conda-forge     Cached
+  + r-dtplyr                                     1.3.1  r43hc72bb7e_2          conda-forge     Cached
+  + r-dbplyr                                     2.5.0  r43hc72bb7e_1          conda-forge     Cached
+  + r-googlesheets4                              1.1.1  r43h785f33e_2          conda-forge     Cached
+  + r-broom                                      1.0.6  r43hc72bb7e_1          conda-forge     Cached
+  + r-modelr                                    0.1.11  r43hc72bb7e_2          conda-forge     Cached
+  + bioconductor-keggrest                       1.42.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-summarizedexperiment           1.32.0  r43hdfd78af_0          bioconda        Cached
+  + transdecoder                                 5.7.1  pl5321hdfd78af_0       bioconda        Cached
+  + bioconductor-qvalue                         2.34.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-biocfilecache                  2.10.1  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-annotationdbi                  1.64.1  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-go.db                          3.18.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-annotate                       1.80.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-biomart                        2.58.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-geneplotter                    1.80.0  r43hdfd78af_0          bioconda        Cached
+  + r-readxl                                     1.4.3  r43he58e087_1          conda-forge     Cached
+  + r-haven                                      2.5.4  r43h0d4f4ea_1          conda-forge     Cached
+  + bioconductor-apeglm                         1.24.0  r43hf17093f_1          bioconda        Cached
+  + bioconductor-genomicalignments              1.38.0  r43ha9d7317_1          bioconda        Cached
+  + pasa                                         2.5.3  h4ac6f70_1             bioconda        Cached
+  + bioconductor-genefilter                     1.84.0  r43ha1e849b_1          bioconda        Cached
+  + bioconductor-deseq2                         1.42.0  r43hf17093f_2          bioconda        Cached
+  + bioconductor-rtracklayer                    1.62.0  r43ha9d7317_1          bioconda        Cached
+  + r-tidyverse                                  2.0.0  r43h785f33e_2          conda-forge     Cached
+  + bioconductor-dexseq                         1.48.0  r43hdfd78af_2          bioconda        Cached
+  + bioconductor-genomicfeatures                1.54.1  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-genelendatabase                1.38.0  r43hdfd78af_0          bioconda        Cached
+  + bioconductor-goseq                          1.54.0  r43hdfd78af_0          bioconda        Cached
+  + trinity                                     2.15.2  pl5321hdcf5f25_0       bioconda        Cached
+  + funannotate                                 1.8.17  pyhdfd78af_0           bioconda        Cached
+
+  Summary:
+
+  Install: 645 packages
+
+  Total download: 0 B
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+Confirm changes: [Y/n] 
+Looking for: ['funannotate']
+
+
+Downloading and Extracting Packages: ...working... done
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+
+    
+##########################################################################################
+All Users:
+  You will need to setup the funannotate databases using funannotate setup.
+  The location of these databases on the file system is your decision and the
+  location can be defined using the FUNANNOTATE_DB environmental variable.
+  
+  To set this up in your conda environment you can run the following:
+    echo "export FUNANNOTATE_DB=/your/path" > /home/trinity.conn/.conda/envs/funannotate/etc/conda/activate.d/funannotate.sh
+    echo "unset FUNANNOTATE_DB" > /home/trinity.conn/.conda/envs/funannotate/etc/conda/deactivate.d/funannotate.sh
+  
+  You can then run your database setup using funannotate:
+    funannotate setup -i all
+    
+  Due to licensing restrictions, if you want to use GeneMark-ES/ET, you will need to install manually:
+  download and follow directions at http://topaz.gatech.edu/GeneMark/license_download.cgi
+  ** note you will likely need to change shebang line for all perl scripts:
+    change: #!/usr/bin/perl to #!/usr/bin/env perl
+     
+      
+Mac OSX Users:
+  Augustus and Trinity cannot be properly installed via conda/bioconda at this time. However,
+  they are able to be installed manually using a local copy of GCC (gcc-8 in example below).
+
+  Install augustus using this repo:
+    https://github.com/nextgenusfs/augustus
+  
+  To install Trinity v2.8.6, download the source code and compile using GCC/G++:
+    wget https://github.com/trinityrnaseq/trinityrnaseq/releases/download/v2.8.6/trinityrnaseq-v2.8.6.FULL.tar.gz
+    tar xzvf trinityrnaseq-v2.8.6.FULL.tar.gz
+    cd trinityrnaseq-v2.8.6
+    make CC=gcc-8 CXX=g++-8
+    echo "export TRINITY_HOME=/your/path" > /home/trinity.conn/.conda/envs/funannotate/etc/conda/activate.d/trinity.sh
+    echo "unset TRINITY_HOME" > /home/trinity.conn/.conda/envs/funannotate/etc/conda/deactivate.d/trinity.sh    
+
+##########################################################################################
+
+done
+
+To activate this environment, use
+
+     $ mamba activate funannotate
+
+To deactivate an active environment, use
+
+     $ mamba deactivate
+

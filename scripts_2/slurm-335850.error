@@ -1,0 +1,4 @@
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+/var/spool/slurmd/job335850/slurm_script: line 19: funannotate: command not found

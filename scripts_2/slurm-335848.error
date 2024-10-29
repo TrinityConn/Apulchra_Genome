@@ -1,0 +1,8 @@
+INFO:    Environment variable SINGULARITY_BINDPATH is set, but APPTAINER_BINDPATH is preferred
+INFO:    Environment variable SINGULARITYENV_PASACONF is set, but APPTAINERENV_PASACONF is preferred
+INFO:    Environment variable SINGULARITY_BINDPATH is set, but APPTAINER_BINDPATH is preferred
+INFO:    Environment variable SINGULARITYENV_PASACONF is set, but APPTAINERENV_PASACONF is preferred
+/usr/bin/mysqld_safe: Deprecated program name. It will be removed in a future release, use 'mariadbd-safe' instead
+240826 16:28:51 mysqld_safe A mysqld process already exists
+Error for command "stop": no instance found
+

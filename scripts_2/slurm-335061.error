@@ -1,0 +1,26 @@
+mkdir: cannot create directory '/data/putnamlab/tconn/apul_anotation': File exists
+[Aug 20 10:20 AM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.9.6
+[Aug 20 10:20 AM]: Running 1.8.17
+[Aug 20 10:20 AM]: Database location: /data/putnamlab/tconn/apul_annotation/funannotate_db
+[Aug 20 10:20 AM]: Retrieving download links from GitHub Repo
+[Aug 20 10:20 AM]: Parsing Augustus pre-trained species and porting to funannotate
+Traceback (most recent call last):
+  File "/opt/software/funannotate/1.8.17-foss-2021b/bin/funannotate", line 8, in <module>
+    sys.exit(main())
+  File "/opt/software/funannotate/1.8.17-foss-2021b/lib/python3.9/site-packages/funannotate/funannotate.py", line 717, in main
+    mod.main(arguments)
+  File "/opt/software/funannotate/1.8.17-foss-2021b/lib/python3.9/site-packages/funannotate/setupDB.py", line 724, in main
+    training_species(args.force)
+  File "/opt/software/funannotate/1.8.17-foss-2021b/lib/python3.9/site-packages/funannotate/setupDB.py", line 562, in training_species
+    for i in os.listdir(os.path.join(os.environ["AUGUSTUS_CONFIG_PATH"], 'species')):
+  File "/opt/software/Python/3.9.6-GCCcore-11.2.0/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'AUGUSTUS_CONFIG_PATH'
+usage: funannotate-train.py [options] -i genome.fasta
+funannotate-train.py: error: unrecognized arguments:  
+/var/spool/slurmd/job335061/slurm_script: line 24: -l: command not found
+/var/spool/slurmd/job335061/slurm_script: line 25: -r: command not found
+/var/spool/slurmd/job335061/slurm_script: line 26: --memory: command not found
+/var/spool/slurmd/job335061/slurm_script: line 27: --no_trimmomatic: command not found
+/var/spool/slurmd/job335061/slurm_script: line 28: --pasa_db: command not found
+/var/spool/slurmd/job335061/slurm_script: line 30: --species: command not found

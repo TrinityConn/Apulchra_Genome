@@ -1,0 +1,31 @@
+[Oct 14 01:25 PM]: OS: CentOS Linux 7, 36 cores, ~ 264 GB RAM. Python: 3.9.19
+[Oct 14 01:25 PM]: Running 1.8.17
+[Oct 14 01:25 PM]: No NCBI SBT file given, will use default, for NCBI submissions pass one here '--sbt'
+[Oct 14 01:25 PM]: Found relevant files in /data/putnamlab/tconn/training, will re-use them:
+	GFF3: /data/putnamlab/tconn/predict_results/Acropora_pulchra.gff3
+	Genome: /data/putnamlab/tconn/predict_results/Acropora_pulchra.scaffolds.fa
+	Forward reads: /data/putnamlab/tconn/training/left.fq.gz
+	Reverse reads: /data/putnamlab/tconn/training/right.fq.gz
+	Forward normalized reads: /data/putnamlab/tconn/training/normalize/left.norm.fq
+	Reverse normalized reads: /data/putnamlab/tconn/training/normalize/right.norm.fq
+	Trinity results: /data/putnamlab/tconn/training/funannotate_train.trinity-GG.fasta
+	PASA config file: /data/putnamlab/tconn/training/pasa/alignAssembly.txt
+	BAM alignments: /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+	StringTie GTF: /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+[Oct 14 01:26 PM]: Reannotating Acropora pulchra, NCBI accession: None
+[Oct 14 01:26 PM]: Previous annotation consists of: 36,447 protein coding gene models and 7,924 non-coding gene models
+[Oct 14 01:26 PM]: Existing annotation: locustag=FUN_ genenumber=44371
+[Oct 14 01:26 PM]: Trimmomatic will be skipped
+[Oct 14 01:26 PM]: Existing BAM alignments found: /data/putnamlab/tconn/update_misc/trinity.alignments.bam, /data/putnamlab/tconn/update_misc/transcript.alignments.bam
+Traceback (most recent call last):
+  File "/home/trinity.conn/.conda/envs/annotate/bin/funannotate", line 8, in <module>
+    sys.exit(main())
+  File "/home/trinity.conn/.conda/envs/annotate/lib/python3.9/site-packages/funannotate/funannotate.py", line 717, in main
+    mod.main(arguments)
+  File "/home/trinity.conn/.conda/envs/annotate/lib/python3.9/site-packages/funannotate/update.py", line 3278, in main
+    runPASA(
+  File "/home/trinity.conn/.conda/envs/annotate/lib/python3.9/site-packages/funannotate/update.py", line 846, in runPASA
+    if not getPASAinformation(configFile, DataBaseName, folder, genome):
+  File "/home/trinity.conn/.conda/envs/annotate/lib/python3.9/site-packages/funannotate/update.py", line 741, in getPASAinformation
+    with open(pasaconf_file, "r") as pasaconf:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/trinity.conn/.conda/envs/annotate/opt/pasa-2.5.3/pasa_conf/conf.txt'

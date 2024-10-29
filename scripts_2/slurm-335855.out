@@ -1,0 +1,8 @@
+
+240826 16:47:15 mysqld_safe Logging to '/var/lib/mysql/n075.cluster.com.err'.
+240826 16:47:15 mysqld_safe Starting mariadbd daemon with databases from /var/lib/mysql
+Usage:
+  apptainer [global options...] instance stop [stop options...] [instance]
+
+Run 'apptainer --help' for more detailed usage information.
+-------------------------------------------------------

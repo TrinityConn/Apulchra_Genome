@@ -1,0 +1,26 @@
+-------------------------------------------------------
+[Sep 03 01:31 PM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Sep 03 01:31 PM]: Running funannotate v1.8.17
+[Sep 03 01:31 PM]: Found training files, will re-use these files:
+  --rna_bam /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+  --pasa_gff /data/putnamlab/tconn/training/funannotate_train.pasa.gff3
+  --stringtie /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+  --transcript_alignments /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Sep 03 01:31 PM]: Skipping CodingQuarry as --organism=other. Pass a weight larger than 0 to run CQ, ie --weights codingquarry:1
+[Sep 03 01:31 PM]: Parsed training data, run ab-initio gene predictors as follows:
+  [4mProgram      Training-Method[0m
+  augustus     pasa           
+  genemark     selftraining   
+  glimmerhmm   pasa           
+  snap         pasa           
+[Sep 03 01:33 PM]: Loading genome assembly and parsing soft-masked repetitive sequences
+[Sep 03 01:33 PM]: Genome loaded: 174 scaffolds; 518,313,916 bp; 16.74% repeats masked
+[Sep 03 01:33 PM]: Parsed 312,278 transcript alignments from: /data/putnamlab/tconn/training/funannotate_train.transcripts.gff3
+[Sep 03 01:33 PM]: Creating transcript EVM alignments and Augustus transcripts hintsfile
+[Sep 03 01:33 PM]: Existing RNA-seq BAM hints found: /data/putnamlab/tconn/predict_misc/hints.BAM.gff
+[Sep 03 01:33 PM]: Existing protein alignments found: /data/putnamlab/tconn/predict_misc/protein_alignments.gff3
+[Sep 03 01:34 PM]: Running GeneMark-ES on assembly
+[Sep 03 01:34 PM]: CMD ERROR: /data/putnamlab/tconn/scripts/gmes_linux_64/gmes_petap.pl --ES --max_intron 100000 --soft_mask 2000 --cores 20 --sequence genome.query.fasta
+[Sep 03 01:34 PM]: Can't locate YAML.pm in @INC (@INC contains: /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at /data/putnamlab/tconn/scripts/gmes_linux_64/gmes_petap.pl line 87.
+BEGIN failed--compilation aborted at /data/putnamlab/tconn/scripts/gmes_linux_64/gmes_petap.pl line 87.
+

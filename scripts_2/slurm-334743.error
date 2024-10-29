@@ -1,0 +1,58 @@
+Usage:
+  -f|fastafile <fastafile> MANDATORY
+  -s|sort [S|R|L|I]        default S (selection); R random; L length; I input file order
+  -n|numfasta <number>     number of fasta sequences (default all)
+  -l|length <number>       minimum length of fasta sequence to select (default 0)
+  -prefix <string>         prefix to add before sequence id (default none)
+  -regexp <string>         only select those sequences that match this regexp (seq id or sequence)
+  -i|inc|include <file>    file with list of seqids to include/select - one per line
+  -e|ex|exc|exclude <file> file with list of seqids to exclude - one per line
+  -d|delimiter <char>      character for delimiting seqid start end, in case of intervals
+  -c|case [U|L]            convert to upper or lower case
+  -int|interval            use if the include file is specified as seqid start end (i.e. if you want to extract intervals)
+  -rename <string>         use to rename each sequence with a five digit suffix. eg, -rename LSIG will create >LSIG00001 >LSIG00002 etc
+/var/spool/slurmd/job334743/slurm_script: line 31: -f: command not found
+BLAST options error: File Adigtranscripts.no_rep.fa is empty
+USAGE
+  blastn [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-task task_name] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-taxids taxids] [-negative_taxids taxids] [-taxidlist filename]
+    [-negative_taxidlist filename] [-no_taxid_expansion]
+    [-entrez_query entrez_query] [-db_soft_mask filtering_algorithm]
+    [-db_hard_mask filtering_algorithm] [-subject subject_input_file]
+    [-subject_loc range] [-query input_file] [-out output_file]
+    [-evalue evalue] [-word_size int_value] [-gapopen open_penalty]
+    [-gapextend extend_penalty] [-perc_identity float_value]
+    [-qcov_hsp_perc float_value] [-max_hsps int_value]
+    [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value] [-penalty penalty]
+    [-reward reward] [-no_greedy] [-min_raw_gapped_score int_value]
+    [-template_type type] [-template_length int_value] [-dust DUST_options]
+    [-filtering_db filtering_database]
+    [-window_masker_taxid window_masker_taxid]
+    [-window_masker_db window_masker_db] [-soft_masking soft_masking]
+    [-ungapped] [-culling_limit int_value] [-best_hit_overhang float_value]
+    [-best_hit_score_edge float_value] [-subject_besthit]
+    [-window_size int_value] [-off_diagonal_range int_value]
+    [-use_index boolean] [-index_name string] [-lcase_masking]
+    [-query_loc range] [-strand strand] [-parse_deflines] [-outfmt format]
+    [-show_gis] [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-sorthits sort_hits]
+    [-sorthsps sort_hsps] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-mt_mode int_value] [-remote] [-version]
+
+DESCRIPTION
+   Nucleotide-Nucleotide BLAST 2.16.0+
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Too many positional arguments (1), the offending value:  
+Error:  (CArgException::eSynopsis) Too many positional arguments (1), the offending value:  
+/var/spool/slurmd/job334743/slurm_script: line 42: -db: command not found
+awk: fatal: cannot open file `repeatmodelerlib.note.megablast.out' for reading: No such file or directory
+Missing RepeatMasker EMBL database! at /home/trinity.conn/.conda/envs/repeatmasker/pkgs/repeatmasker-4.1.5-pl5321hdfd78af_1/share/RepeatMasker/util/buildRMLibFromEMBL.pl line 80.
+Can't open perl script "/home/trinity.conn/.conda/envs/repeatmasker/pkgs/repeatmasker-4.1.5-pl5321hdfd78af_1/share/RepeatMasker/util/queryRepeatDatabase.pl": No such file or directory
+/var/spool/slurmd/job334743/slurm_script: line 73: -engine: command not found

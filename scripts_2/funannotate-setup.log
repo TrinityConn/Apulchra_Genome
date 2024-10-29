@@ -1,0 +1,5 @@
+[08/20/24 15:17:37]: /venv/bin/funannotate setup -d /data/putnamlab/tconn/funannotate_db
+
+[08/20/24 15:17:37]: OS: Debian GNU/Linux 10, 24 cores, ~ 132 GB RAM. Python: 3.8.12
+[08/20/24 15:17:37]: Running 1.8.17
+[08/20/24 15:17:37]: Database location: /data/putnamlab/tconn/funannotate_db

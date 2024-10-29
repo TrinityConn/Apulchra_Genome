@@ -1,0 +1,6 @@
+/net/clusterhn.cluster.com/home/trinity.conn/miniforge3/bin/funannotate:11: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import get_distribution
+[11:36 PM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.10.14
+[11:36 PM]: Running 1.8.3
+[11:36 PM]: Trimmomatic will be skipped
+[11:36 PM]: Trimmomatic failed, /data/putnamlab/dbecks/DeNovo_transcriptome/2023_A.pul/data/trimmed/*_R1*.fq.gz does not exist.

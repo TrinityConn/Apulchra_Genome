@@ -1,0 +1,65 @@
+INFO:    Instance stats will not be available - requires cgroups v2 with systemd as manager.
+INFO:    instance started successfully
+2024-10-16T19:11:11.131166Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-10-16T19:11:11.178809Z 0 [Note] mysqld (mysqld 5.7.21) starting as process 23 ...
+2024-10-16T19:11:11.379033Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-10-16T19:11:11.379250Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-10-16T19:11:11.379387Z 0 [Note] InnoDB: Uses event mutexes
+2024-10-16T19:11:11.379521Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-10-16T19:11:11.379602Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2024-10-16T19:11:11.383092Z 0 [Note] InnoDB: Number of pools: 1
+2024-10-16T19:11:11.392490Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-10-16T19:11:11.397969Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-10-16T19:11:11.409094Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-10-16T19:11:11.412765Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-10-16T19:11:11.452180Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2024-10-16T19:11:11.476079Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2552072
+2024-10-16T19:11:11.476225Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2552081
+2024-10-16T19:11:11.476344Z 0 [Note] InnoDB: Database was not shutdown normally!
+2024-10-16T19:11:11.476513Z 0 [Note] InnoDB: Starting crash recovery.
+2024-10-16T19:11:11.714038Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2024-10-16T19:11:11.714228Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2024-10-16T19:11:11.750157Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2024-10-16T19:11:11.795474Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2024-10-16T19:11:11.797083Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2024-10-16T19:11:11.797220Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2024-10-16T19:11:11.798032Z 0 [Note] InnoDB: Waiting for purge to start
+2024-10-16T19:11:11.848432Z 0 [Note] InnoDB: 5.7.21 started; log sequence number 2552081
+2024-10-16T19:11:11.848634Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2024-10-16T19:11:11.852345Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2024-10-16T19:11:11.882887Z 0 [Note] InnoDB: Buffer pool(s) load completed at 241016 15:11:11
+2024-10-16T19:11:11.885852Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2024-10-16T19:11:11.892619Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2024-10-16T19:11:11.893499Z 0 [Note] IPv6 is available.
+2024-10-16T19:11:11.895891Z 0 [Note]   - '::' resolves to '::';
+2024-10-16T19:11:11.896153Z 0 [Note] Server socket created on IP: '::'.
+2024-10-16T19:11:12.050478Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.050634Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.050766Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.051620Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.051690Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.052364Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.113619Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.113886Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2024-10-16T19:11:12.570320Z 0 [Note] Event Scheduler: Loaded 0 events
+2024-10-16T19:11:12.570526Z 0 [Note] Execution of init_file '/home/trinity.conn/.mysqlrootpw' started.
+2024-10-16T19:11:12.575699Z 0 [Note] Execution of init_file '/home/trinity.conn/.mysqlrootpw' ended.
+2024-10-16T19:11:12.575821Z 0 [Note] mysqld: ready for connections.
+Version: '5.7.21'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+[Oct 16 03:11 PM]: OS: CentOS Linux 7, 24 cores, ~ 132 GB RAM. Python: 3.9.19
+[Oct 16 03:11 PM]: Running 1.8.17
+[Oct 16 03:11 PM]: Trimmomatic will be skipped
+[Oct 16 03:11 PM]: 401,717 existing Trinity results found: /data/putnamlab/tconn/training/trinity.fasta
+[Oct 16 03:11 PM]: Removing poly-A sequences from trinity transcripts using seqclean
+[Oct 16 03:11 PM]: Existing SeqClean output found: /data/putnamlab/tconn/training/trinity.fasta.clean
+[Oct 16 03:11 PM]: Existing BAM alignments found: /data/putnamlab/tconn/training/trinity.alignments.bam, /data/putnamlab/tconn/training/transcript.alignments.bam
+[Oct 16 03:11 PM]: Existing Kallisto output found: /data/putnamlab/tconn/training/kallisto.tsv
+[Oct 16 03:11 PM]: Parsing expression value results. Keeping best transcript at each locus.
+[Oct 16 03:35 PM]: Wrote 36,860 PASA gene models
+[Oct 16 03:35 PM]: PASA database name: Acropora_pulchra
+[Oct 16 03:35 PM]: Trinity/PASA has completed, you are now ready to run funanotate predict, for example:
+
+  funannotate predict -i /data/putnamlab/tconn/repeats/apul_softmasked/apul.hifiasm.s55_pa.p_ctg.fa.k32.w100.z1000.ntLink.5rounds.fa.masked \
+            -o /data/putnamlab/tconn/ -s "Acropora pulchra" --cpus 20
+
+INFO:    Stopping mysql instance of /data/putnamlab/tconn/mysql/mysql.simg (PID=6337)

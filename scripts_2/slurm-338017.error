@@ -1,0 +1,23 @@
+[Sep 14 05:21 AM]: OS: CentOS Linux 7, 36 cores, ~ 528 GB RAM. Python: 3.9.19
+[Sep 14 05:21 AM]: Running 1.8.17
+[Sep 14 05:21 AM]: No NCBI SBT file given, will use default, for NCBI submissions pass one here '--sbt'
+[Sep 14 05:21 AM]: Found relevant files in /data/putnamlab/tconn/training, will re-use them:
+	GFF3: /data/putnamlab/tconn/predict_results/Acropora_pulchra.gff3
+	Genome: /data/putnamlab/tconn/predict_results/Acropora_pulchra.scaffolds.fa
+	Forward reads: /data/putnamlab/tconn/training/left.fq.gz
+	Reverse reads: /data/putnamlab/tconn/training/right.fq.gz
+	Forward normalized reads: /data/putnamlab/tconn/training/normalize/left.norm.fq
+	Reverse normalized reads: /data/putnamlab/tconn/training/normalize/right.norm.fq
+	Trinity results: /data/putnamlab/tconn/training/funannotate_train.trinity-GG.fasta
+	PASA config file: /data/putnamlab/tconn/training/pasa/alignAssembly.txt
+	BAM alignments: /data/putnamlab/tconn/training/funannotate_train.coordSorted.bam
+	StringTie GTF: /data/putnamlab/tconn/training/funannotate_train.stringtie.gtf
+[Sep 14 05:22 AM]: Reannotating Acropora pulchra, NCBI accession: None
+[Sep 14 05:22 AM]: Previous annotation consists of: 36,447 protein coding gene models and 7,924 non-coding gene models
+[Sep 14 05:22 AM]: Existing annotation: locustag=FUN_ genenumber=44371
+[Sep 14 05:22 AM]: Trimmomatic will be skipped
+[Sep 14 05:22 AM]: Existing BAM alignments found: /data/putnamlab/tconn/update_misc/trinity.alignments.bam, /data/putnamlab/tconn/update_misc/transcript.alignments.bam
+[Sep 14 05:22 AM]: PASA database is SQLite: /data/putnamlab/tconn/training/pasa/Acropora_pulchra_pasa
+[Sep 14 05:22 AM]: Running PASA annotation comparison step 1
+[Sep 16 10:46 PM]: Running PASA annotation comparison step 2
+slurmstepd: error: *** JOB 338017 ON n075 CANCELLED AT 2024-09-18T05:21:17 DUE TO TIME LIMIT ***

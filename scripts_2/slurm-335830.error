@@ -1,0 +1,6 @@
+INFO:    Environment variable SINGULARITY_BINDPATH is set, but APPTAINER_BINDPATH is preferred
+FATAL:   While checking container encryption: could not open image /data/putnamlab/tconn/funannotate_db/mysql/mariadb.sif: failed to retrieve path for /data/putnamlab/tconn/funannotate_db/mysql/mariadb.sif: lstat /glfs/brick01/gv0/putnamlab/tconn/funannotate_db/mysql/mariadb.sif: no such file or directory
+INFO:    Environment variable SINGULARITY_BINDPATH is set, but APPTAINER_BINDPATH is preferred
+FATAL:   While checking container encryption: could not open image /data/putnamlab/tconn/funannotate_db/mysql/mariadb.sif: failed to retrieve path for /data/putnamlab/tconn/funannotate_db/mysql/mariadb.sif: lstat /glfs/brick01/gv0/putnamlab/tconn/funannotate_db/mysql/mariadb.sif: no such file or directory
+Error for command "stop": no instance found
+
